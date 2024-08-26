@@ -1,9 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Modify the program to display a second line of output.
-Reason: Unable to find '["That's awesome!"]' in the program's output.
-I'm learning how to program in C++.
-.
-Error : AssertionError - Unable to find That's awesome! in the program's output.
-Timestamp: 2024-08-26 23:11:13.225279
+Reason: The correct message was found in the program's output.None
+Timestamp: 2024-08-26 23:12:26.360794
