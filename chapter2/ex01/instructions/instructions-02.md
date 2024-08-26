@@ -1,0 +1,1 @@
+**Task 2**: Declare and initialize an integer variable named `myCurrentAge`. Initialize this variable with your current age.
