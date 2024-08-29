@@ -9,13 +9,13 @@ int main()
 {
 
    // Write your code here
-   int newAge;
+   int myNewAge;
    int myCurrentAge = 26;
    int currentYear = 2024;
-   newAge = myCurrentAge + (2050 - currentYear);
+   myNewAge = myCurrentAge + (2050 - currentYear);
 
    cout << "My Current Age is " << myCurrentAge << "." << endl;
-   cout << "I will be " << newAge << " in 2050." << endl;
+   cout << "I will be " << myNewAge << " in 2050." << endl;
    
    
    return 0;
