@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Declare an integer variable named `myNewAge`.
 Reason: `int myNewAge;` was found in the program.None
-Timestamp: 2024-08-29 00:46:06.964498
+Timestamp: 2024-08-29 00:46:58.756067
 
 Status: PASSED!
 Check: 1
 Test: Execute the program.
 Reason: The program executed without error.None
-Timestamp: 2024-08-29 00:46:06.970453
+Timestamp: 2024-08-29 00:46:58.760052
