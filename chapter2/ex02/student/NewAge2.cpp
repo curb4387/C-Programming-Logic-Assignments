@@ -16,7 +16,7 @@ int main()
    myNewAge = myCurrentAge + (YEAR - currentYear);
 
    cout << "My Current Age is " << myCurrentAge << "." << endl;
-   cout << "I will be " << myNewAge << " in YEAR." << endl;
+   cout << "I will be " << myNewAge << " in " << YEAR << endl;
    
    
    return 0;
