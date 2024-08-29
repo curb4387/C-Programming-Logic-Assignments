@@ -1,0 +1,6 @@
+
+Status: PASSED!
+Check: 1
+Test: Declare a constant named `Year`.
+Reason: 'const int YEAR = 2050;' was found in the program output.None
+Timestamp: 2024-08-29 00:54:36.355719
