@@ -3,4 +3,4 @@ Status: PASSED!
 Check: 1
 Test: Update the `myNewAge` calculation to use the constant `Year`.
 Reason: '(YEAR - currentYear)' was found in the program output.None
-Timestamp: 2024-08-29 00:55:46.674286
+Timestamp: 2024-08-29 00:56:53.217762
