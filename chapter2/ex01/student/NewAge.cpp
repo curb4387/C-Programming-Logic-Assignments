@@ -9,6 +9,9 @@ int main()
 {
 
    // Write your code here
+   int newAge;
+   int myCurrentAge = 26;
+   int currentYear = 2024;
    newAge = myCurrentAge + (2050 - currentYear);
 
    cout << "My Current Age is " << myCurrentAge << "." << endl;
