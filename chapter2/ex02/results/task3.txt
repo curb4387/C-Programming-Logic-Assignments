@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Update the output statement to use the constant `YEAR`.
-Reason: Unable to find '`... << " in " << YEAR << "`.' in the program.
-Error : str - AssertionError
-Timestamp: 2024-08-29 00:56:53.218237
+Reason: '`... << " in " << YEAR << "`.' was found in the program output.None
+Timestamp: 2024-08-29 00:57:14.393299
