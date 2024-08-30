@@ -1,7 +1,7 @@
+// This is the code editor
 #include <iostream>
 using namespace std;
 int main() {
-    // This is the code editor
-    cout << "... and this is the terminal" << endl;
+    cout << "This is the code editor.";
     return 0;
 }
