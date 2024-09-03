@@ -10,7 +10,7 @@ int main()
    double wholesalePrice = 200.00;
    double salePrice = retailPrice - (retailPrice * 0.25);
    double profit = retailPrice - wholesalePrice;
-   double saleProfit = wholesalePrice - salePrice;
+   double saleProfit = salePrice - wholesalePrice;
 		
    // Write your assignment statements here
 
