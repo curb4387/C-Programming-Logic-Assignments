@@ -8,9 +8,9 @@ int main()
    string itemName = "TV Stand";
    double retailPrice = 325.00;
    double wholesalePrice = 200.00;
-   double salePrice = retailPrice - (retailPrice * (25 / 100));
+   double salePrice = retailPrice - (retailPrice * 0.25);
    double profit = retailPrice - wholesalePrice;
-   double saleProfit = salePrice - wholesalePrice;
+   double saleProfit = wholesalePrice - salePrice;
 		
    // Write your assignment statements here
 
