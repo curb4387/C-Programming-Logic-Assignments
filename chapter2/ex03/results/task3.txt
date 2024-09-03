@@ -7,21 +7,21 @@ Item Name: TV Stand
 Retail Price: $821.34
 Wholesale Price: $576.83
 Profit: $244.51
-Sale Price: $821.34
-Sale Profit: $244.51
+Sale Price: $616.005
+Sale Profit: $-39.175
 
 Error : AssertionError - Unable to find a number close enough to 39.175 (+/-0.00) in the program's output.
-Timestamp: 2024-09-03 17:14:52.196122
+Timestamp: 2024-09-03 17:15:54.071437
 
 Status: FAILED!
 Check: 3
 Test: Calculate the sale profit as the sale price minus the wholesale price of $1398.37.
 Reason: Unable to find $-648.377 in the program's output. When the retail price is less than the wholesale price it results in a loss. Make sure your program correctly calculates a loss.
 Error : AssertionError - Unable to find -648.377 in the program's output.
-Timestamp: 2024-09-03 17:14:52.401978
+Timestamp: 2024-09-03 17:15:54.313758
 
 Status: PASSED!
 Check: 4
 Test: Checking the program for hardcoded answers.
 Reason: None
-Timestamp: 2024-09-03 17:14:52.402357
+Timestamp: 2024-09-03 17:15:54.314134

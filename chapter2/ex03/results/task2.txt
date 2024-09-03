@@ -1,34 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Calculate the sale price as 25 percent deducted from the retail price of $821.34.
-Reason: Unable to find '616.005' in the program's output.
-Item Name: TV Stand
-Retail Price: $821.34
-Wholesale Price: $576.83
-Profit: $244.51
-Sale Price: $821.34
-Sale Profit: $244.51
+Reason: The correct sale price of $616.005 was found in the program's output.None
+Timestamp: 2024-09-03 17:15:53.569556
 
-Error : AssertionError - Unable to find a number close enough to 616.005 (+/-0.00) in the program's output.
-Timestamp: 2024-09-03 17:14:51.796846
-
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Calculate the sale price as 25 percent deducted from the retail price of $999.99.
-Reason: Unable to find '749.993' in the program's output.
-Item Name: TV Stand
-Retail Price: $999.99
-Wholesale Price: $1398.37
-Profit: $-398.38
-Sale Price: $999.99
-Sale Profit: $-398.38
-
-Error : AssertionError - Unable to find a number close enough to 749.993 (+/-0.00) in the program's output.
-Timestamp: 2024-09-03 17:14:51.990285
+Reason: The correct sale price of $749.993 was found in the program's output.None
+Timestamp: 2024-09-03 17:15:53.795329
 
 Status: PASSED!
 Check: 4
 Test: Checking the program for hardcoded answers.
 Reason: None
-Timestamp: 2024-09-03 17:14:51.990662
+Timestamp: 2024-09-03 17:15:53.795549
