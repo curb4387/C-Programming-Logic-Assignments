@@ -9,10 +9,14 @@ using namespace std;
 int main()
 { 
    // Declare variables
-   
+   int testScore;
+   int classRank;
      
    // Prompt for and get user input 
-   
+   cout << "Enter test score: ";
+   cin >> testScore;
+   cout << "Enter class rank: ";
+   cin >> classRank;
    
    // Test using admission requirements and print Accept or Reject 
    if(testScore >= 90)
