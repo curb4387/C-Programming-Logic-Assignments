@@ -18,9 +18,13 @@ int main()
      
   // This is the work of the housekeeping() method
   // Get the year, then the month, then the day
-       
+       cout << "Enter year: ";
+       cin >> year;
+       cout << "Enter month: ";
+       cin >> month;
+       cout << "Enter day: ";
+       cin >> day;
   
-
   // This is the work of the detailLoop() method
   // Check to be sure date is valid
   if(year <= MIN_YEAR)  // invalid year
@@ -35,12 +39,12 @@ int main()
   if(validDate == true)
   { 
      // Output statement
-     
+     cout << month << "/" << day << "/" << year << " is a valid date.";
   }
   else
   {
      // Output statement
-     
+     cout << month << "/" << day << "/" << year << " is an invalid date.";
   }
      
   return 0;
