@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Declare `testScore`.
+Reason: 'testScore' was found in the program output.None
+Timestamp: 2024-09-10 00:04:24.198170
+
+Status: PASSED!
+Check: 2
+Test: Declare `classRank`.
+Reason: 'classRank' was found in the program output.None
+Timestamp: 2024-09-10 00:04:24.198522
