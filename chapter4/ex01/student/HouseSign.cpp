@@ -18,7 +18,16 @@ int main()
 
    // This is the work done in the detailLoop() function
    // Write assignment and if statements here
-
+   charge = charge + 35.00;
+   if (numChars > 5) {
+      charge += (numChars - 5) * 4;
+   }
+   if (color == "gold") {
+      charge += 15;
+   }
+   if (woodType == "oak") {
+      charge += 20;
+   }
    
    // This is the work done in the endOfJob() function			
    // Output charge for this sign
