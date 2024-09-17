@@ -11,9 +11,14 @@ int main()
             // Color of characters in sign
     	    // Number of characters in sign
             // Type of wood
-   	
+   float charge = 0.00;
+   int numChars = 8;
+   string color = "gold";
+   string woodType = "oak";
+
    // This is the work done in the detailLoop() function
    // Write assignment and if statements here
+
    
    // This is the work done in the endOfJob() function			
    // Output charge for this sign
