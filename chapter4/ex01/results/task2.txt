@@ -1,0 +1,27 @@
+
+Status: FAILED!
+Check: 1
+Test: Black and white, 5 letter, on pine (minimum charge).
+Reason: Unable to find '35' in the program's output.
+The charge for this sign is $0
+
+Error : AssertionError - Unable to find a number close enough to 35 (+/-0.00) in the program's output.
+Timestamp: 2024-09-17 00:34:39.566340
+
+Status: FAILED!
+Check: 2
+Test: Gold leaf, 10 letter, on oak.
+Reason: Unable to find '90' in the program's output.
+The charge for this sign is $0
+
+Error : AssertionError - Unable to find a number close enough to 90 (+/-0.00) in the program's output.
+Timestamp: 2024-09-17 00:34:39.781672
+
+Status: FAILED!
+Check: 3
+Test: Gold leaf, 8 letter, on pine.
+Reason: Unable to find '62' in the program's output.
+The charge for this sign is $0
+
+Error : AssertionError - Unable to find a number close enough to 62 (+/-0.00) in the program's output.
+Timestamp: 2024-09-17 00:34:39.982796
