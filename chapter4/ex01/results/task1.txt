@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Declare and initialize the `charge` variable.
 Reason: The `charge` variable was found and initialized correctly.None
-Timestamp: 2024-09-17 00:59:30.987774
+Timestamp: 2024-09-18 21:18:50.801887
 
 Status: PASSED!
 Check: 2
 Test: Declare and initialize the `numChars` variable.
 Reason: The `numChars` variable was found and initialized correctly.None
-Timestamp: 2024-09-17 00:59:30.988142
+Timestamp: 2024-09-18 21:18:50.802405
 
 Status: PASSED!
 Check: 3
 Test: Declare and initialize the `color` variable.
 Reason: The `color` variable was found and initialized correctly.None
-Timestamp: 2024-09-17 00:59:30.988376
+Timestamp: 2024-09-18 21:18:50.802754
 
 Status: PASSED!
 Check: 4
 Test: Declare and initialize the `woodType` variable.
 Reason: The `woodType` variable was found and initialized correctly.None
-Timestamp: 2024-09-17 00:59:30.988604
+Timestamp: 2024-09-18 21:18:50.803082
