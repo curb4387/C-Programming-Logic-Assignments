@@ -1,0 +1,26 @@
+
+Status: PASSED!
+Check: 1
+Test: The program displays the largest and smallest values in the set: '-50, 53, 78' 
+Reason: None
+Timestamp: 2024-09-18 21:50:09.950830
+
+Status: FAILED!
+Check: 2
+Test: The program displays the largest and smallest values in the set: '-7, 12, -3' 
+Reason: Unable to find '-7, 12' in the program's output.
+The largest value is -3
+The smallest value is -7
+
+Error : AssertionError - 
+Timestamp: 2024-09-18 21:50:10.149349
+
+Status: FAILED!
+Check: 3
+Test: The program displays the largest and smallest values in the set: '17, -22, 8' 
+Reason: Unable to find '-22, 17' in the program's output.
+The largest value is 8
+The smallest value is -1107130048
+
+Error : AssertionError - 
+Timestamp: 2024-09-18 21:50:10.340958
