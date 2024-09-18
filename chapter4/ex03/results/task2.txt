@@ -1,0 +1,62 @@
+
+Status: PASSED!
+Check: 1
+Test: less than 30 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.220286
+
+Status: PASSED!
+Check: 2
+Test: 31-69 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.222463
+
+Status: PASSED!
+Check: 3
+Test: 70-199 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.224549
+
+Status: PASSED!
+Check: 4
+Test: greater than or equal to 200 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.226668
+
+Status: FAILED!
+Check: 5
+Test: edge case: 69 productivity score
+Reason: Unable to find '['$75']' in the program's output.
+Enter employee's first name: Enter employee's last name: Enter number of shifts: Enter number of transactions: Enter dollar value of transactions: Employee Name: Robert Chen
+Employee Bonus: $100
+.
+Error : AssertionError - 
+Timestamp: 2024-09-18 23:09:09.228755
+
+Status: PASSED!
+Check: 6
+Test: edge case: 30 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.230827
+
+Status: PASSED!
+Check: 7
+Test: edge case: 70 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.232990
+
+Status: FAILED!
+Check: 8
+Test: edge case: 199 productivity score
+Reason: Unable to find '['$100']' in the program's output.
+Enter employee's first name: Enter employee's last name: Enter number of shifts: Enter number of transactions: Enter dollar value of transactions: Employee Name: Aisha Lee
+Employee Bonus: $200
+.
+Error : AssertionError - 
+Timestamp: 2024-09-18 23:09:09.235166
+
+Status: PASSED!
+Check: 9
+Test: edge case: 200 productivity score
+Reason: None
+Timestamp: 2024-09-18 23:09:09.237269
