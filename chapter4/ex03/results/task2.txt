@@ -3,60 +3,52 @@ Status: PASSED!
 Check: 1
 Test: less than 30 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.950618
+Timestamp: 2024-09-18 23:14:55.126905
 
 Status: PASSED!
 Check: 2
 Test: 31-69 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.952861
+Timestamp: 2024-09-18 23:14:55.130097
 
 Status: PASSED!
 Check: 3
 Test: 70-199 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.954980
+Timestamp: 2024-09-18 23:14:55.134336
 
 Status: PASSED!
 Check: 4
 Test: greater than or equal to 200 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.957094
+Timestamp: 2024-09-18 23:14:55.137388
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: edge case: 69 productivity score
-Reason: Unable to find '['$75']' in the program's output.
-Enter employee's first name: Enter employee's last name: Enter number of shifts: Enter number of transactions: Enter dollar value of transactions: Employee Name: Robert Chen
-Employee Bonus: $100
-.
-Error : AssertionError - 
-Timestamp: 2024-09-18 23:12:26.959192
+Reason: None
+Timestamp: 2024-09-18 23:14:55.141587
 
 Status: PASSED!
 Check: 6
 Test: edge case: 30 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.961315
+Timestamp: 2024-09-18 23:14:55.144537
 
 Status: PASSED!
 Check: 7
 Test: edge case: 70 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.963461
+Timestamp: 2024-09-18 23:14:55.147507
 
-Status: FAILED!
+Status: PASSED!
 Check: 8
 Test: edge case: 199 productivity score
-Reason: Unable to find '['$100']' in the program's output.
-Enter employee's first name: Enter employee's last name: Enter number of shifts: Enter number of transactions: Enter dollar value of transactions: Employee Name: Aisha Lee
-Employee Bonus: $200
-.
-Error : AssertionError - 
-Timestamp: 2024-09-18 23:12:26.965553
+Reason: None
+Timestamp: 2024-09-18 23:14:55.151664
 
 Status: PASSED!
 Check: 9
 Test: edge case: 200 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:12:26.967729
+Timestamp: 2024-09-18 23:14:55.154621
