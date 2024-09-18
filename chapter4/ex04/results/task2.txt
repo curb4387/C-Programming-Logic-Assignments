@@ -3,22 +3,28 @@ Status: PASSED!
 Check: 1
 Test: The program calculates the end-of-year bonus for a performance rating of 1.
 Reason: None
-Timestamp: 2024-09-18 23:37:45.631403
+Timestamp: 2024-09-18 23:38:18.145175
 
 Status: PASSED!
 Check: 2
 Test: The program calculates the end-of-year bonus for a performance rating of 2.
 Reason: None
-Timestamp: 2024-09-18 23:37:45.633597
+Timestamp: 2024-09-18 23:38:18.147322
 
 Status: PASSED!
 Check: 3
 Test: The program calculates the end-of-year bonus for a performance rating of 3.
 Reason: None
-Timestamp: 2024-09-18 23:37:45.635759
+Timestamp: 2024-09-18 23:38:18.149491
 
-Status: PASSED!
+Status: FAILED!
 Check: 4
 Test: The program calculates the end-of-year bonus for a performance rating of 4.
-Reason: None
-Timestamp: 2024-09-18 23:37:45.637893
+Reason: Unable to find '['$0']' in the program's output.
+Enter employee's first name: Enter employee's last name: Enter employee's yearly salary: Enter employee's performance rating: Employee Name: Jane Doe
+Employee Salary: $50000
+Employee Rating: 4
+Employee Bonus: $6.94452e-310
+.
+Error : AssertionError - 
+Timestamp: 2024-09-18 23:38:18.151660
