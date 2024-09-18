@@ -20,9 +20,9 @@ int main()
 
    // Test to see if this customer is eligible for a 25% discount				
    if (passengerAge <= 6 || passengerAge >= 65) {
-      cout << "You are eligible for a discount.";
+      cout << "Passenger is eligible for a discount.";
    } else {
-      cout << "You are not eligible for a discount.";
+      cout << "Passenger is not eligible for a discount.";
    }
    return 0;
 } 
