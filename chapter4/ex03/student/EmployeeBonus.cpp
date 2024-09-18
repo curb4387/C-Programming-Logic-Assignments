@@ -33,9 +33,9 @@ int main()
 	score = (dollarValue / numTransactions) / numShifts;
    if (score <= 30) {
       bonus = BONUS_1;
-   } else if (score < 69) {
+   } else if (score <= 69) {
       bonus = BONUS_2;
-   } else if (score < 199) {
+   } else if (score <= 199) {
       bonus = BONUS_3;
    } else {
       bonus = BONUS_4;
