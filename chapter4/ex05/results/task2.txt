@@ -1,0 +1,48 @@
+
+Status: PASSED!
+Check: 1
+Test: Will Moriarty
+Reason: None
+Timestamp: 2024-09-18 23:46:59.266087
+
+Status: PASSED!
+Check: 2
+Test: James Chung
+Reason: None
+Timestamp: 2024-09-18 23:46:59.268205
+
+Status: FAILED!
+Check: 3
+Test: Darlene Sanchez
+Reason: Unable to find '['is eligible']' in the program's output.
+Enter passenger's first name: Enter passenger's last name: Enter passenger's age: You are eligible for a discount..
+Error : AssertionError - 
+Timestamp: 2024-09-18 23:46:59.270382
+
+Status: PASSED!
+Check: 4
+Test: Ray Sanchez
+Reason: None
+Timestamp: 2024-09-18 23:46:59.272548
+
+Status: FAILED!
+Check: 5
+Test: Tommy Sanchez
+Reason: Unable to find '['is eligible']' in the program's output.
+Enter passenger's first name: Enter passenger's last name: Enter passenger's age: You are eligible for a discount..
+Error : AssertionError - 
+Timestamp: 2024-09-18 23:46:59.274637
+
+Status: PASSED!
+Check: 6
+Test: Amy Patel
+Reason: None
+Timestamp: 2024-09-18 23:46:59.276689
+
+Status: FAILED!
+Check: 7
+Test: Jane Doe
+Reason: Unable to find '['is eligible']' in the program's output.
+Enter passenger's first name: Enter passenger's last name: Enter passenger's age: You are eligible for a discount..
+Error : AssertionError - 
+Timestamp: 2024-09-18 23:46:59.278724
