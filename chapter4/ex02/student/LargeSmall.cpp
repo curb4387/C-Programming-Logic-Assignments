@@ -14,7 +14,23 @@ int main()
 
    
    // Write assignment, if, or if else statements here as appropriate
-			
+	if (firstNumber > (secondNumber && thirdNumber)) {
+      largest = firstNumber;
+      if (secondNumber > (firstNumber && thirdNumber)) {
+         largest = secondNumber;
+      } else {
+         largest = thirdNumber;
+      }
+   }
+   if (firstNumber < (secondNumber && thirdNumber)) {
+      smallest = firstNumber;
+      if (secondNumber < (firstNumber && thirdNumber)) {
+         largest = secondNumber;
+      } else {
+         largest = thirdNumber;
+      }
+   }
+
    // Output largest and smallest number. 
    cout << "The largest value is " << largest << endl;
    cout << "The smallest value is " << smallest << endl;
