@@ -3,25 +3,25 @@ Status: PASSED!
 Check: 1
 Test: less than 30 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.887733
+Timestamp: 2024-09-18 23:12:26.950618
 
 Status: PASSED!
 Check: 2
 Test: 31-69 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.889941
+Timestamp: 2024-09-18 23:12:26.952861
 
 Status: PASSED!
 Check: 3
 Test: 70-199 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.892037
+Timestamp: 2024-09-18 23:12:26.954980
 
 Status: PASSED!
 Check: 4
 Test: greater than or equal to 200 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.894150
+Timestamp: 2024-09-18 23:12:26.957094
 
 Status: FAILED!
 Check: 5
@@ -31,19 +31,19 @@ Enter employee's first name: Enter employee's last name: Enter number of shifts:
 Employee Bonus: $100
 .
 Error : AssertionError - 
-Timestamp: 2024-09-18 23:10:43.896244
+Timestamp: 2024-09-18 23:12:26.959192
 
 Status: PASSED!
 Check: 6
 Test: edge case: 30 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.898369
+Timestamp: 2024-09-18 23:12:26.961315
 
 Status: PASSED!
 Check: 7
 Test: edge case: 70 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.900461
+Timestamp: 2024-09-18 23:12:26.963461
 
 Status: FAILED!
 Check: 8
@@ -53,10 +53,10 @@ Enter employee's first name: Enter employee's last name: Enter number of shifts:
 Employee Bonus: $200
 .
 Error : AssertionError - 
-Timestamp: 2024-09-18 23:10:43.902572
+Timestamp: 2024-09-18 23:12:26.965553
 
 Status: PASSED!
 Check: 9
 Test: edge case: 200 productivity score
 Reason: None
-Timestamp: 2024-09-18 23:10:43.904692
+Timestamp: 2024-09-18 23:12:26.967729
