@@ -14,7 +14,7 @@ int main()
    const double BONUS_1 = .25;
    const double BONUS_2 = .15;
    const double BONUS_3 = .10; 
-   const double NO_BONUS = 0.00;
+   const double NO_BONUS = 0;
    const int RATING_1 = 1;
    const int RATING_2 = 2;
    const int RATING_3 = 3; 
@@ -41,9 +41,9 @@ int main()
          employeeBonus += (employeeSalary * BONUS_3);
          break;
       default:
-         employeeBonus += (employeeSalary * NO_BONUS);
+         employeeBonus = (NO_BONUS);
    }
-   
+
    // Output  
    cout << "Employee Name: " << employeeFirstName << " " << employeeLastName << endl;
    cout << "Employee Salary: $" << employeeSalary << endl;
