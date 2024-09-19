@@ -1,30 +1,42 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: The program calculates the end-of-year bonus for a performance rating of 1.
-Reason: None
-Timestamp: 2024-09-18 23:52:22.317627
-
-Status: PASSED!
-Check: 2
-Test: The program calculates the end-of-year bonus for a performance rating of 2.
-Reason: None
-Timestamp: 2024-09-18 23:52:22.319786
-
-Status: PASSED!
-Check: 3
-Test: The program calculates the end-of-year bonus for a performance rating of 3.
-Reason: None
-Timestamp: 2024-09-18 23:52:22.321952
-
-Status: FAILED!
-Check: 4
-Test: The program calculates the end-of-year bonus for a performance rating of 4.
-Reason: Unable to find '['$0']' in the program's output.
-Enter employee's first name: Enter employee's last name: Enter employee's yearly salary: Enter employee's performance rating: Employee Name: Jane Doe
-Employee Salary: $50000
-Employee Rating: 4
-Employee Bonus: $6.91071e-310
+Reason: Unable to find '['$12,500']' in the program's output.
+Employee's name: Employee's salary: Employee's performance rating: Employee Name: Jane 
+Employee Salary: $0
+Employee Rating: 1491245472
+Employee Bonus: $-3.03543e+98
 .
 Error : AssertionError - 
-Timestamp: 2024-09-18 23:52:22.324081
+Timestamp: 2024-09-19 00:01:39.532793
+
+Status: FAILED!
+Check: 2
+Test: The program calculates the end-of-year bonus for a performance rating of 2.
+Reason: Unable to find '['$7,500']' in the program's output.
+Employee's name: Employee's salary: Employee's performance rating: Employee Name: Jane 
+Employee Salary: $0
+Employee Rating: 0
+Employee Bonus: $4.47834e+162
+.
+Error : AssertionError - 
+Timestamp: 2024-09-19 00:01:39.535080
+
+Status: FAILED!
+Check: 3
+Test: The program calculates the end-of-year bonus for a performance rating of 3.
+Reason: Unable to find '['$5,000']' in the program's output.
+Employee's name: Employee's salary: Employee's performance rating: Employee Name: Jane 
+Employee Salary: $0
+Employee Rating: 545429920
+Employee Bonus: $1.53128e+259
+.
+Error : AssertionError - 
+Timestamp: 2024-09-19 00:01:39.537292
+
+Status: PASSED!
+Check: 4
+Test: The program calculates the end-of-year bonus for a performance rating of 4.
+Reason: None
+Timestamp: 2024-09-19 00:01:39.539488
