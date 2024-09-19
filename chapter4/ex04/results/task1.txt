@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Implement a switch...case statement.
+Reason: 'switch(expression)' was found in the program output.None
+Timestamp: 2024-09-19 00:03:50.878860
+
+Status: PASSED!
+Check: 2
+Test: Implement a switch...case statement.
+Reason: 'case: condition' was found in the program output.None
+Timestamp: 2024-09-19 00:03:50.879206
