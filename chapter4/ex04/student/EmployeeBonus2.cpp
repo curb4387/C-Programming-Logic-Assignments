@@ -30,6 +30,19 @@ int main()
    cin >> employeeRating; 
 
    // Use switch statement to calculate bonus based on rating
+   switch(employeeRating) {
+      case RATING_1:
+         employeeBonus += (employeeSalary * BONUS_1);
+         break;
+      case RATING_2:
+         employeeBonus += (employeeSalary * BONUS_2);
+         break;
+      case RATING_3:
+         employeeBonus += (employeeSalary * BONUS_3);
+         break;
+      default:
+         employeeBonus += (employeeSalary * NO_BONUS);
+   }
    
    // Output  
    cout << "Employee Name: " << employeeFirstName << " " << employeeLastName << endl;
