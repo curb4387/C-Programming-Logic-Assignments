@@ -6,8 +6,7 @@ using namespace std;
 int main()
 {
    // Declare and initialize variables.
-   string employeeFirstName; 
-   string employeeLastName; 
+   string employeeName;
    double employeeSalary;	
    int employeeRating; 
    double employeeBonus;
@@ -20,13 +19,11 @@ int main()
    const int RATING_3 = 3; 
 
    // Get user input		
-   cout << "Enter employee's first name: ";
-   cin >> employeeFirstName;
-   cout << "Enter employee's last name: ";
-   cin >> employeeLastName;
-   cout << "Enter employee's yearly salary: ";
+   cout << "Employee's name: ";
+   cin >> employeeName;
+   cout << "Employee's salary: ";
    cin >> employeeSalary;
-   cout << "Enter employee's performance rating: ";
+   cout << "Employee's performance rating: ";
    cin >> employeeRating; 
 
    // Use switch statement to calculate bonus based on rating
@@ -45,7 +42,7 @@ int main()
    }
 
    // Output  
-   cout << "Employee Name: " << employeeFirstName << " " << employeeLastName << endl;
+   cout << "Employee Name: " << employeeName << " " << endl;
    cout << "Employee Salary: $" << employeeSalary << endl;
    cout << "Employee Rating: " << employeeRating << endl;
    cout << "Employee Bonus: $" << employeeBonus << endl;
