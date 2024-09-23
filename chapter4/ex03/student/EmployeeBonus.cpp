@@ -31,15 +31,21 @@ int main()
 
    // Write your code here
 	score = (dollarValue / numTransactions) / numShifts;
-   if (score <= 30) {
-      bonus = BONUS_1;
-   } else if (score <= 69) {
-      bonus = BONUS_2;
-   } else if (score <= 199) {
-      bonus = BONUS_3;
+   if (score > 30) {
+      if (score > 69) {
+         if (score > 199) {
+            bonus = BONUS_4;
+         }
+         else {
+            bonus = BONUS_3;
+         }
+      } else {
+         bonus = BONUS_2;
+      }
    } else {
-      bonus = BONUS_4;
+      bonus = BONUS_1;
    }
+
 
    // Output.  
    cout << "Employee Name: " << employeeFirstName << " " << employeeLastName << endl;
