@@ -20,7 +20,14 @@ int main()
     cin >> numStars; 
     			
     // Write while loop here    
+    while (numStars != -1) {
+        totalStars = totalStars + numStars;
+        cout << "Enter rating for featured movie: ";
+        cin >> numStars;
+        numPatrons++;
+    }
 
+    averageStars = totalStars / numPatrons;
     cout << "Average Star Value: " << averageStars << endl; 
     return 0;
 } 
