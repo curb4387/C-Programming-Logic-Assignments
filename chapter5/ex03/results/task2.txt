@@ -3,196 +3,196 @@ Status: PASSED!
 Check: 1
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.929922
+Timestamp: 2024-09-25 21:36:02.075306
 
 Status: PASSED!
 Check: 2
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.932248
+Timestamp: 2024-09-25 21:36:02.077448
 
 Status: PASSED!
 Check: 3
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.934322
+Timestamp: 2024-09-25 21:36:02.079561
 
 Status: PASSED!
 Check: 4
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.936415
+Timestamp: 2024-09-25 21:36:02.081630
 
 Status: PASSED!
 Check: 5
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.938454
+Timestamp: 2024-09-25 21:36:02.083759
 
 Status: PASSED!
 Check: 6
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.940522
+Timestamp: 2024-09-25 21:36:02.085863
 
 Status: PASSED!
 Check: 7
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.942577
+Timestamp: 2024-09-25 21:36:02.087913
 
 Status: PASSED!
 Check: 8
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.944648
+Timestamp: 2024-09-25 21:36:02.089942
 
 Status: PASSED!
 Check: 9
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.946737
+Timestamp: 2024-09-25 21:36:02.091996
 
 Status: PASSED!
 Check: 10
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.948772
+Timestamp: 2024-09-25 21:36:02.094062
 
 Status: PASSED!
 Check: 11
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.950820
+Timestamp: 2024-09-25 21:36:02.096105
 
 Status: PASSED!
 Check: 12
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.952945
+Timestamp: 2024-09-25 21:36:02.098194
 
 Status: PASSED!
 Check: 13
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.955047
+Timestamp: 2024-09-25 21:36:02.100261
 
 Status: PASSED!
 Check: 14
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.957135
+Timestamp: 2024-09-25 21:36:02.102315
 
 Status: PASSED!
 Check: 15
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.959204
+Timestamp: 2024-09-25 21:36:02.104376
 
 Status: PASSED!
 Check: 16
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.961244
+Timestamp: 2024-09-25 21:36:02.106428
 
 Status: PASSED!
 Check: 17
 Test: Loop multiples the loop control value by 2 and 10.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963340
+Timestamp: 2024-09-25 21:36:02.108488
 
 Status: PASSED!
 Check: 17
 Test: 4 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963541
+Timestamp: 2024-09-25 21:36:02.108705
 
 Status: PASSED!
 Check: 18
 Test: 20 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963634
+Timestamp: 2024-09-25 21:36:02.108808
 
 Status: PASSED!
 Check: 19
 Test: 6 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963713
+Timestamp: 2024-09-25 21:36:02.108891
 
 Status: PASSED!
 Check: 20
 Test: 30 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963785
+Timestamp: 2024-09-25 21:36:02.108965
 
 Status: PASSED!
 Check: 21
 Test: 8 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963858
+Timestamp: 2024-09-25 21:36:02.109037
 
 Status: PASSED!
 Check: 22
 Test: 40 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.963928
+Timestamp: 2024-09-25 21:36:02.109107
 
 Status: PASSED!
 Check: 23
 Test: 50 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964029
+Timestamp: 2024-09-25 21:36:02.109176
 
 Status: PASSED!
 Check: 24
 Test: 12 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964112
+Timestamp: 2024-09-25 21:36:02.109247
 
 Status: PASSED!
 Check: 25
 Test: 60 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964186
+Timestamp: 2024-09-25 21:36:02.109315
 
 Status: PASSED!
 Check: 26
 Test: 14 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964255
+Timestamp: 2024-09-25 21:36:02.109383
 
 Status: PASSED!
 Check: 27
 Test: 70 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964322
+Timestamp: 2024-09-25 21:36:02.109449
 
 Status: PASSED!
 Check: 28
 Test: 16 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964388
+Timestamp: 2024-09-25 21:36:02.109515
 
 Status: PASSED!
 Check: 29
 Test: 80 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964454
+Timestamp: 2024-09-25 21:36:02.109582
 
 Status: PASSED!
 Check: 30
 Test: 18 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964519
+Timestamp: 2024-09-25 21:36:02.109649
 
 Status: PASSED!
 Check: 31
 Test: 90 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964597
+Timestamp: 2024-09-25 21:36:02.109786
 
 Status: PASSED!
 Check: 32
 Test: 100 should not appear hard-coded in your program.
 Reason: None
-Timestamp: 2024-09-25 21:35:35.964666
+Timestamp: 2024-09-25 21:36:02.109869
