@@ -19,7 +19,11 @@ int main()
 
    cout << "0 through 10 multiplied by 2 and by 10." << endl;
 
-   // Write while loop here   
-   
+   for (numberCounter = 0; numberCounter <= MAX_NUM; numberCounter++) {
+      byTen = numberCounter * 10;
+      byTwo = numberCounter * 2;
+      cout << numberCounter << " " << byTen << " " << byTwo << endl;
+   }
+
    return 0;
 } 
