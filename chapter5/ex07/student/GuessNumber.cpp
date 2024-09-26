@@ -22,7 +22,7 @@ int main()
    cin >> keepGoing;
 
    // Validate input 
-   while (keepGoing != "Y" || keepGoing != "N")
+   while(keepGoing != "Y" || keepGoing != "N")
    {
       cout << "Invalid entry. Please enter Y or N: ";
       cin >> keepGoing;
@@ -35,7 +35,7 @@ int main()
       cin >> userNumber; 
 
       // Validate input     
-      while (userNumber <= 1 || userNumber >= 10)
+      while(userNumber <= 1 || userNumber >= 10)
       {
          cout << "Invalid entry. Please enter a number between 1 and 10: ";
          cin >> userNumber;
@@ -52,7 +52,7 @@ int main()
          cin >> keepGoing;
       }
          // Validate input     
-         while (keepGoing != "Y" || keepGoing != "N")
+         while(keepGoing != "Y" || keepGoing != "N")
          {
             cout << "Invalid entry. Please enter Y or N: ";
             cin >> keepGoing;
