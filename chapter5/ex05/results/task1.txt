@@ -4,4 +4,4 @@ Check: 1
 Test: Write the nested loops to control the number of rows and columns.
 Reason: Unable to find 'A nested `for` or `while` loop.' in the program. 
 Error : str - AssertionError
-Timestamp: 2024-09-26 21:50:36.415859
+Timestamp: 2024-09-26 22:07:24.383978
