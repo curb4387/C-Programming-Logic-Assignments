@@ -54,7 +54,7 @@ int main()
          // Validate input         
          while(!(keepGoing == "Y" || keepGoing == "N"))
          {
-            cout << "Invalid input. Do you want to guess a number? Enter Y or N: ";
+            cout << "Number must be in the range of 1 to 10: Please try again: ";
             cin >> keepGoing;
          }
       }
