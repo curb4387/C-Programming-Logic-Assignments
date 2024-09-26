@@ -18,7 +18,7 @@ int main()
 
    // Write a loop to control the number of columns
       for(column = 1; column <= NUM_ACROSS; column++) {
-
+         
    // Decide when to print an asterisk in every column.
          if(row == 1 || row == 3 || row == 5)  {
             cout << "*";
