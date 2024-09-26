@@ -18,9 +18,10 @@ int main()
    while (leftOrRight != "X") {
       if (leftOrRight == "L") {
          leftTotal = leftTotal + 1;
-      }
-      if (leftOrRight == "R") {
+      } else if (leftOrRight == "R") {
          rightTotal = rightTotal + 1;
+      } else {
+         cout << "Please enter X to quit.";
       }
       cout << "Enter an L if you are left-handed, a R if you are right-handed or X to quit: ";
       cin >> leftOrRight;
