@@ -14,9 +14,9 @@ int main()
    int column;    // Loop control for column number
 
    row = 1;
-   while (row <= NUM_DOWN) {
+   while(row <= NUM_DOWN) {
       column = 1;
-      while (column <= NUM_ACROSS) {
+      while(column <= NUM_ACROSS) {
          if (row == 1 || row == 3 || row == 5) {
                cout << "*";
                } else if (column == 1) {
