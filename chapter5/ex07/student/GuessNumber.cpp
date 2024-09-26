@@ -22,6 +22,11 @@ int main()
    cin >> keepGoing;
 
    // Validate input 
+   while(!(keepGoing == "Y" || keepGoing == "N"))
+   {
+      cout << "Invalid input. Do you want to guess a number? Enter Y or N: ";
+      cin >> keepGoing;
+   }
 
    // Enter loop if they want to play
    while(keepGoing == "Y")
@@ -31,6 +36,9 @@ int main()
       cin >> userNumber; 
 
       // Validate input     
+      while(!(userNumber >= 1 || userNumber <= 10))
+         cout << "Invalid input. I'm thinking of a number. \n Try to guess by entering a number between 1 and 10: ";
+         cin >> userNumber;
 
       // Test to see if the user guessed correctly
       if(userNumber == number)
@@ -44,6 +52,11 @@ int main()
          cin >> keepGoing;
          
          // Validate input         
+         while(!(keepGoing == "Y" || keepGoing == "N"))
+         {
+            cout << "Invalid input. Do you want to guess a number? Enter Y or N: ";
+            cin >> keepGoing;
+         }
       }
    } // End of while loop
    return 0;
