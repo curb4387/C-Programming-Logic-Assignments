@@ -15,7 +15,15 @@ int main()
    cin >> leftOrRight;  
 
    // Write your loop here.
-
+   while (leftOrRight != "X") {
+      if (leftOrRight == "L") {
+         leftTotal = leftTotal + 1;
+      } else {
+         rightTotal = rightTotal + 1;
+      }
+      cout << "Enter an L if you are left-handed, a R if you are right-handed or X to quit: ";
+      cin >> leftOrRight; 
+   }
    // Output number of left or right-handed students.	
    cout << "Number of left-handed students: " << leftTotal << endl;
    cout << "Number of right-handed students: " << rightTotal << endl;
