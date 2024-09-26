@@ -13,18 +13,22 @@ int main()
    int row; // Loop control for row number
    int column;    // Loop control for column number
 
-   for(row = 1; row <= NUM_DOWN; row++) {
-         for(column = 1; column <= NUM_ACROSS; column++) {
-               if(row == 1 || row == 3 || row == 5) {
-                     cout << "*";
-               } else if(column == 1) {
+   row = 1;
+   while (row <= NUM_DOWN) {
+      column = 1;
+      while (column <= NUM_ACROSS) {
+         if (row == 1 || row == 3 || row == 5) {
+               cout << "*";
+               } else if (column == 1) {
                      cout << "*";
                } else {
                      cout << " "; 
                }
-         }
+         column++;
+      }                      
    // Figure out where to place this statement that prints a newline.    
       cout << endl;
+      row++;
    }
    return 0; 
 }
