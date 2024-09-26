@@ -22,7 +22,11 @@ int main()
    cin >> keepGoing;
 
    // Validate input 
-
+   while (keepGoing != "Y" || keepGoing != "N")
+   {
+      cout << "Invalid entry. Please enter Y or N: ";
+      cin >> keepGoing;
+   }
    // Enter loop if they want to play
    while(keepGoing == "Y")
    {
@@ -31,7 +35,11 @@ int main()
       cin >> userNumber; 
 
       // Validate input     
-
+      while (userNumber <= 1 || userNumber >= 10)
+      {
+         cout << "Invalid entry. Please enter a number between 1 and 10: ";
+         cin >> userNumber;
+      }
       // Test to see if the user guessed correctly
       if(userNumber == number)
       {
@@ -42,9 +50,13 @@ int main()
       {
          cout << "That's not correct. Do you want to guess again? Enter Y or N: ";
          cin >> keepGoing;
-         
-         // Validate input         
       }
+         // Validate input     
+         while (keepGoing != "Y" || keepGoing != "N")
+         {
+            cout << "Invalid entry. Please enter Y or N: ";
+            cin >> keepGoing;
+         }
    } // End of while loop
    return 0;
 }
