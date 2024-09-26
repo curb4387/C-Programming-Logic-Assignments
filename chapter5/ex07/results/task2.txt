@@ -4,39 +4,34 @@ Reason: Unable to run GuessNumber.cpp
 Error: The program took longer than 5 seconds to execute.
 This may indicate an issue providing input to your program.
 Check your program follows the example in the instructions.
-Timestamp: 2024-09-26 22:45:49.800780
+Timestamp: 2024-09-26 23:12:53.280758
 
 Status: FAILED!
 Reason: Unable to run GuessNumber.cpp
 Error: The program took longer than 5 seconds to execute.
 This may indicate an issue providing input to your program.
 Check your program follows the example in the instructions.
-Timestamp: 2024-09-26 22:45:49.800954
+Timestamp: 2024-09-26 23:12:53.280901
 
 Status: FAILED!
-Reason: Unable to run GuessNumber.cpp
-Error: The program took longer than 5 seconds to execute.
-This may indicate an issue providing input to your program.
-Check your program follows the example in the instructions.
-Timestamp: 2024-09-26 22:45:55.211172
-
-Status: FAILED!
-Reason: Unable to run GuessNumber.cpp
-Error: The program took longer than 5 seconds to execute.
-This may indicate an issue providing input to your program.
-Check your program follows the example in the instructions.
-Timestamp: 2024-09-26 22:45:55.211278
+Check: 2
+Test: The program prompts the user to try again for incorrect input.
+Reason: Unable to find '['Number must be in the range of 1 to 10: Please try again:']' in the program's output.
+Do you want to guess a number? Enter Y or N: I'm thinking of a number. 
+ Try to guess by entering a number between 1 and 10: That's not correct. Do you want to guess again? Enter Y or N: Invalid input. Do you want to guess a number? Enter Y or N: .
+Error : AssertionError - Unable to find Number must be in the range of 1 to 10: Please try again: in the program's output.
+Timestamp: 2024-09-26 23:12:53.544833
 
 Status: FAILED!
 Check: 3
 Test: 
 Reason: 
 Error : str - Please make sure random number generator only generates in the range of 1-10
-Timestamp: 2024-09-26 22:45:55.365381
+Timestamp: 2024-09-26 23:12:53.544954
 
 Status: FAILED!
 Check: 3
 Test: The program generates a different random number for each run.
 Reason: The correct number does not appear to be random.
 Error : AssertionError - 
-Timestamp: 2024-09-26 22:45:55.365521
+Timestamp: 2024-09-26 23:12:53.545034
