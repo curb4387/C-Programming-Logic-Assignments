@@ -15,7 +15,7 @@ int main()
    cin >> leftOrRight;  
 
    // Write your loop here.
-   while(leftOrRight != "X") {
+   while (leftOrRight != "X") {
       if (leftOrRight == "L") {
          leftTotal = leftTotal + 1;
       } else {
