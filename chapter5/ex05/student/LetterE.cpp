@@ -13,7 +13,6 @@ int main()
    int row; // Loop control for row number
    int column;    // Loop control for column number
 
-   // Write a loop to control the number of rows.
    for(row = 1; row <= NUM_DOWN; row++) {
          for(column = 1; column <= NUM_ACROSS; column++) {
                if(row == 1 || row == 3 || row == 5) {
