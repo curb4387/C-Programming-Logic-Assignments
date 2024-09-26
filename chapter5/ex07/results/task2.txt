@@ -1,0 +1,42 @@
+
+Status: FAILED!
+Reason: Unable to run GuessNumber.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-09-26 22:44:52.641685
+
+Status: FAILED!
+Reason: Unable to run GuessNumber.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-09-26 22:44:52.641859
+
+Status: FAILED!
+Reason: Unable to run GuessNumber.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-09-26 22:44:58.047454
+
+Status: FAILED!
+Reason: Unable to run GuessNumber.cpp
+Error: The program took longer than 5 seconds to execute.
+This may indicate an issue providing input to your program.
+Check your program follows the example in the instructions.
+Timestamp: 2024-09-26 22:44:58.047557
+
+Status: FAILED!
+Check: 3
+Test: 
+Reason: 
+Error : str - Please make sure random number generator only generates in the range of 1-10
+Timestamp: 2024-09-26 22:44:58.201797
+
+Status: FAILED!
+Check: 3
+Test: The program generates a different random number for each run.
+Reason: The correct number does not appear to be random.
+Error : AssertionError - 
+Timestamp: 2024-09-26 22:44:58.201933
