@@ -3,28 +3,34 @@ Status: PASSED!
 Check: 1
 Test: The program can be executed several times to ensuring the random number changes.
 Reason: None
-Timestamp: 2024-09-26 23:16:58.285858
+Timestamp: 2024-09-26 23:17:28.777709
 
 Status: PASSED!
 Check: 2
 Test: The program prompts the user to try again for incorrect input.
 Reason: None
-Timestamp: 2024-09-26 23:16:58.287970
+Timestamp: 2024-09-26 23:17:28.779841
 
 Status: PASSED!
-Check: 3.2
-Test: The program will eventually generate 5 as the correct answer.
+Check: 3.3
+Test: The program will eventually generate 8 as the correct answer.
 Reason: None
-Timestamp: 2024-09-26 23:17:00.817214
+Timestamp: 2024-09-26 23:17:30.552775
 
 Status: PASSED!
 Check: 3.1
 Test: The program will eventually generate 1 as the correct answer.
 Reason: None
-Timestamp: 2024-09-26 23:17:03.089621
+Timestamp: 2024-09-26 23:17:32.576627
+
+Status: PASSED!
+Check: 3.2
+Test: The program will eventually generate 5 as the correct answer.
+Reason: None
+Timestamp: 2024-09-26 23:17:34.347910
 
 Status: PASSED!
 Check: 3.4
 Test: The program will eventually generate 4 as the correct answer.
 Reason: None
-Timestamp: 2024-09-26 23:17:09.149143
+Timestamp: 2024-09-26 23:17:37.130057
