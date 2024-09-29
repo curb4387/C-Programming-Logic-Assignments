@@ -13,22 +13,19 @@ int main()
    int row; // Loop control for row number
    int column;    // Loop control for column number
 
-   row = 1;
-   while(row <= NUM_DOWN) {
-      column = 1;
-      while(column <= NUM_ACROSS) {
-         if (row == 1 || row == 3 || row == 5) {
-               cout << "*";
-               } else if (column == 1) {
-                     cout << "*";
-               } else {
-                     cout << " "; 
-               }
-         column++;
-      }                      
-   // Figure out where to place this statement that prints a newline.    
-      cout << endl;
-      row++;
-   }
+   // Write a loop to control the number of rows.
+   // Write a loop to control the number of columns
+   // Decide when to print an asterisk in every column.
+   cout << "*";
+
+   // Decide when to print asterisk in column 1.   
+   cout << "*";
+
+   // Decide when to print a space instead of an asterisk.   
+   cout << " "; 
+
+   // Figure out where to place this statement that prints a newline.
+   cout << endl;
+
    return 0; 
 }
