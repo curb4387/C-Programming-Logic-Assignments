@@ -16,19 +16,19 @@ int main()
    // Write a loop to control the number of rows.
    for(row = 1; row <= NUM_DOWN; row++) {
    // Write a loop to control the number of columns
-      for(column = 1; column <= NUM_ACROSS; column++)
+      for(column = 1; column <= NUM_ACROSS; column++) {
    // Decide when to print an asterisk in every column.
-         if(row == 1 || row == 3 || row == 5)
+         if(row == 1 || row == 3 || row == 5) {
             cout << "*";
 
    // Decide when to print asterisk in column 1.   
-         else if(column == 1)
+         } else if(column == 1) {
             cout << "*";
 
    // Decide when to print a space instead of an asterisk.   
-         else
+         } else
             cout << " "; 
-
+      }
    // Figure out where to place this statement that prints a newline.
       cout << endl;
    }
