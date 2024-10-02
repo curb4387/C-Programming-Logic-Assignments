@@ -17,15 +17,21 @@ int main()
 
    // Get user input
    cout << "Enter name of city: ";
-   cin >> inCity; 
+   cin >> inCity;
 	
    // Write your loop here 	
-   
+   for(int count = 0; count < NUM_CITIES && foundIt == false; count++) {
       // Write your test statement here to see if there is 
-      // a match. Set the flag to true if city is found. 			
-			
+      // a match. Set the flag to true if city is found.
+      if (inCity == citiesInMichigan[count])
+         foundIt = true;
+   }
    // Test to see if city was found. If found, output "City Found."
    // Else, output "Not a city in Michigan."
-    	
+   if (foundIt == true) {
+      cout << "City found.";
+   } else {
+      cout << "Not a city in Michigan.";
+   }
    return 0;	
 } 
