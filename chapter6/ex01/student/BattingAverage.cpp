@@ -19,7 +19,7 @@ int main()
 
    // Write a loop to get batting averages from user and assign to array
    for(int i = 0; i < SIZE; i++) {
-      cout << "Enter a batting average: " << "\n";
+      cout << "Enter a batting average: ";
       cin >> battingAverage;
       // Assign value to array
       averages[i] = battingAverage;
