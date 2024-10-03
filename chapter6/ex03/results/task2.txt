@@ -10,13 +10,13 @@ Enter coffee add-in or XXX to quit: Amaretto price is $1.5
 Enter coffee add-in or XXX to quit: Whiskey price is $1.75
 Enter coffee add-in or XXX to quit: .
 Error : AssertionError - 
-Timestamp: 2024-10-03 00:21:38.874260
+Timestamp: 2024-10-03 00:25:12.401776
 
 Status: PASSED!
 Check: 2
 Test: Add no ingredients
 Reason: None
-Timestamp: 2024-10-03 00:21:38.876714
+Timestamp: 2024-10-03 00:25:12.404167
 
 Status: FAILED!
 Check: 3
@@ -28,10 +28,10 @@ Enter coffee add-in or XXX to quit: Sorry we do not carry that.
 Enter coffee add-in or XXX to quit: Order total is $2
 .
 Error : AssertionError - Unable to find a number close enough to 4.59 (+/-0.01) in the program's output.
-Timestamp: 2024-10-03 00:21:38.878918
+Timestamp: 2024-10-03 00:25:12.406327
 
 Status: PASSED!
 Check: 4
 Test: Checking unavailable ingredients.
 Reason: None
-Timestamp: 2024-10-03 00:21:38.881282
+Timestamp: 2024-10-03 00:25:12.408669

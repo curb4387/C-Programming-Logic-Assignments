@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Implement a while loop to examine the array for the name of the add-in ordered by the customer.
-Reason: Unable to find '`while` loop.' in the program.
-Error : str - AssertionError
-Timestamp: 2024-10-03 00:21:38.871360
+Reason: '`while` loop.' was found in the program output.None
+Timestamp: 2024-10-03 00:25:12.399039
