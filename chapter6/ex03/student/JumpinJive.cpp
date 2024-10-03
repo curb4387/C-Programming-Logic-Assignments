@@ -23,5 +23,20 @@ int main()
    cin >> addIn;
 		
    // Write the rest of the program here. 
+   for(int count = 0; count < NUM_ITEMS; count++) {
+      if(addIn == addIns[count]) {
+         foundIt = true;
+         orderTotal = orderTotal + addInPrices[count];
+         cout << addIn << " price is $" << addInPrices[count] << endl;
+      } else if(addIn == "XXX") {
+         cout << "Order total is $" << orderTotal << endl;
+         break;
+      } else {
+         cout << "Sorry we do not carry that." << endl;
+      }
+      cout << "Enter coffee add-in or XXX to quit: ";
+      cin >> addIn;
+   }
+
    return 0;
 } 
