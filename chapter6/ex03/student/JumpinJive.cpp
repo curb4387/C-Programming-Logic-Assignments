@@ -37,7 +37,6 @@ int main()
       cin >> addIn;
       count += 1;
    }
-   orderTotal = orderTotal + addInPrices[count];
    cout << "Order total is $" << orderTotal << endl;
 
    return 0;
