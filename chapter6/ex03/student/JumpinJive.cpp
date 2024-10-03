@@ -29,15 +29,16 @@ int main()
          orderTotal = orderTotal + addInPrices[count];
          cout << addIn << " price is $" << addInPrices[count] << endl;
       } else if(addIn == "XXX") {
-         cout << "Order total is $" << orderTotal << endl;
          break;
       } else {
          cout << "Sorry we do not carry that." << endl;
       }
-      count += 1;
       cout << "Enter coffee add-in or XXX to quit: ";
       cin >> addIn;
-   }      
+      count += 1;
+   }
+   orderTotal = orderTotal + addInPrices[count];
+   cout << "Order total is $" << orderTotal << endl;
 
    return 0;
 } 
