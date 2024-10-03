@@ -17,13 +17,13 @@ int main()
    double addInPrices[] = {.89, .25, .59, 1.50, 1.75};
    bool foundIt = false;  // Flag variable
    double orderTotal = 2.00;  // All orders start with a 2.00 charge
-
+   int count = 0;
    // Get user input
    cout << "Enter coffee add-in or XXX to quit: ";
    cin >> addIn;
 		
    // Write the rest of the program here. 
-   for(int count = 0; count < NUM_ITEMS; count++) {
+   while(count < NUM_ITEMS) {
       if(addIn == addIns[count]) {
          foundIt = true;
          orderTotal = orderTotal + addInPrices[count];
@@ -34,9 +34,10 @@ int main()
       } else {
          cout << "Sorry we do not carry that." << endl;
       }
+      count += 1;
       cout << "Enter coffee add-in or XXX to quit: ";
       cin >> addIn;
-   }
+   }      
 
    return 0;
 } 
