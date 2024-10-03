@@ -3,7 +3,7 @@ Status: PASSED!
 Check: 1
 Test: Add all ingredients
 Reason: None
-Timestamp: 2024-10-03 00:34:48.075015
+Timestamp: 2024-10-03 00:35:22.181202
 
 Status: FAILED!
 Check: 2
@@ -12,7 +12,7 @@ Reason: Unable to find '['2.00']' in the program's output.
 Enter coffee add-in or XXX to quit: Order total is $2.89
 .
 Error : AssertionError - Unable to find a number close enough to 2.00 (+/-0.01) in the program's output.
-Timestamp: 2024-10-03 00:34:48.077275
+Timestamp: 2024-10-03 00:35:22.183540
 
 Status: FAILED!
 Check: 3
@@ -24,10 +24,10 @@ Enter coffee add-in or XXX to quit: Sorry we do not carry that.
 Enter coffee add-in or XXX to quit: Order total is $3.5
 .
 Error : AssertionError - Unable to find a number close enough to 4.59 (+/-0.01) in the program's output.
-Timestamp: 2024-10-03 00:34:48.079429
+Timestamp: 2024-10-03 00:35:22.185699
 
 Status: PASSED!
 Check: 4
 Test: Checking unavailable ingredients.
 Reason: None
-Timestamp: 2024-10-03 00:34:48.081782
+Timestamp: 2024-10-03 00:35:22.188063
