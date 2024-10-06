@@ -23,19 +23,21 @@ int main()
    cin >> addIn;
 	
    // Write the rest of the program here.
-   int sub = 0;
-   while(addIn != "XXX") {
-      while(sub < NUM_ITEMS && foundIt == false) {
-         if(addIn == addIns[sub]) {
-            foundIt = true;
-            cout << addIns[sub] << " price is $" << addInPrices[sub] << endl;
-            orderTotal = orderTotal + addInPrices[sub];
-         }
-         sub += 1;
+   while(true) {
+      if(addIn == "XXX") {
+         break;
       }
-         if(foundIt == false) {
-            cout << "Sorry we do not carry that." << endl;
+      for(int sub = 0; sub < NUM_ITEMS; sub++) {
+         if(addIn == addIns[sub]) {
+            cout << addIns[sub] << " price is $" << addInPrices[sub] << endl;
+            orderTotal += addInPrices[sub];
+            foundIt = true;
+            break;
          }
+      }
+      if(!foundIt) {
+         cout << "Sorry we do not carry that." << endl;
+      }
       cout << "Enter coffee add-in or XXX to quit: ";
       cin >> addIn;
    }
