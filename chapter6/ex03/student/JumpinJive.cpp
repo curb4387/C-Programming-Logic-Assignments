@@ -35,7 +35,7 @@ int main()
             break;
          }
       }
-      if(!foundIt) {
+      if(foundIt == false) {
          cout << "Sorry we do not carry that." << endl;
       }
       cout << "Enter coffee add-in or XXX to quit: ";
