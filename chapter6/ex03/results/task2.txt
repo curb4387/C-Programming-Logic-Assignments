@@ -1,30 +1,35 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: Add all ingredients
-Reason: None
-Timestamp: 2024-10-03 00:37:47.396186
+Reason: Unable to find '['$0.89, $0.25, $0.59, $1.50, $1.75, $6.98']' in the program's output.
+Enter coffee add-in or XXX to quit: Cream price is $0.89
+Enter coffee add-in or XXX to quit: Cinnamon price is $0.25
+Enter coffee add-in or XXX to quit: Chocolate price is $0.59
+Enter coffee add-in or XXX to quit: Amaretto price is $1.5
+Enter coffee add-in or XXX to quit: Whiskey price is $1.75
+Enter coffee add-in or XXX to quit: Sorry we do not carry that..
+Error : AssertionError - 
+Timestamp: 2024-10-06 03:33:48.206960
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: Add no ingredients
-Reason: None
-Timestamp: 2024-10-03 00:37:47.398807
+Reason: Unable to find '['2.00']' in the program's output.
+Enter coffee add-in or XXX to quit: Sorry we do not carry that..
+Error : AssertionError - Unable to find a number close enough to 2.00 (+/-0.01) in the program's output.
+Timestamp: 2024-10-06 03:33:48.209434
 
 Status: FAILED!
 Check: 3
 Test: Add some ingredients
 Reason: Unable to find '['4.59']' in the program's output.
-Enter coffee add-in or XXX to quit: Sorry we do not carry that.
-Enter coffee add-in or XXX to quit: Sorry we do not carry that.
-Enter coffee add-in or XXX to quit: Sorry we do not carry that.
-Enter coffee add-in or XXX to quit: Order total is $2
-.
+Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Sorry we do not carry that..
 Error : AssertionError - Unable to find a number close enough to 4.59 (+/-0.01) in the program's output.
-Timestamp: 2024-10-03 00:37:47.401091
+Timestamp: 2024-10-06 03:33:48.211647
 
 Status: PASSED!
 Check: 4
 Test: Checking unavailable ingredients.
 Reason: None
-Timestamp: 2024-10-03 00:37:47.403479
+Timestamp: 2024-10-06 03:33:48.214079
