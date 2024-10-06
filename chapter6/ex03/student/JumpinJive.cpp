@@ -21,7 +21,27 @@ int main()
    // Get user input
    cout << "Enter coffee add-in or XXX to quit: ";
    cin >> addIn;
-		
-   // Write the rest of the program here. 
+	
+   // Write the rest of the program here.
+   int count = 0;
+   while(count < NUM_ITEMS && foundIt == false) {
+      if(addIn == addIns[count]) {
+         foundIt == true;
+         cout << addIns[count] << " price is $" << addInPrices[count] << endl;
+         orderTotal = orderTotal + addInPrices[count];
+      } else if(addIn == "XXX") {
+         break;
+      }
+      count += 1;
+      cout << "Enter coffee add-in or XXX to quit: ";
+      cin >> addIn;
+   }
+
+   if(foundIt == true) {
+      cout << "Order Total is $" << orderTotal;
+   } else {
+      cout << "Sorry we do not carry that.";
+   }
+
    return 0;
 } 
