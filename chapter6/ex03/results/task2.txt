@@ -7,13 +7,13 @@ Enter coffee add-in or XXX to quit: Cream price is $0.89
 Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Order Total is $2.89
 .
 Error : AssertionError - 
-Timestamp: 2024-10-06 04:07:18.743836
+Timestamp: 2024-10-06 04:34:06.307590
 
 Status: PASSED!
 Check: 2
 Test: Add no ingredients
 Reason: None
-Timestamp: 2024-10-06 04:07:18.748279
+Timestamp: 2024-10-06 04:34:06.310095
 
 Status: FAILED!
 Check: 3
@@ -23,10 +23,10 @@ Enter coffee add-in or XXX to quit: Cinnamon price is $0.25
 Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Enter coffee add-in or XXX to quit: Order Total is $2.25
 .
 Error : AssertionError - Unable to find a number close enough to 4.59 (+/-0.01) in the program's output.
-Timestamp: 2024-10-06 04:07:18.750534
+Timestamp: 2024-10-06 04:34:06.312357
 
 Status: PASSED!
 Check: 4
 Test: Checking unavailable ingredients.
 Reason: None
-Timestamp: 2024-10-06 04:07:18.752844
+Timestamp: 2024-10-06 04:34:06.314709
