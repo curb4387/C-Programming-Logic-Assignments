@@ -31,12 +31,11 @@ int main()
             cout << addIns[sub] << " price is $" << addInPrices[sub] << endl;
             orderTotal = orderTotal + addInPrices[sub];
          }
-         
          sub += 1;
       }
-      if(foundIt == false) {
-         cout << "Sorry we do not carry that." << endl;
-      }
+         if(foundIt == false) {
+            cout << "Sorry we do not carry that." << endl;
+         }
       cout << "Enter coffee add-in or XXX to quit: ";
       cin >> addIn;
    }
