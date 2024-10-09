@@ -17,11 +17,22 @@ int main()
    cin >> registerString; 
 		
    // Test here. If = Y, call discount(), else call noDiscount(). 
-   
+   if (registerString == "Y") {
+      discount();
+   } else {
+      noDiscount();
+   }
    return 0;
 } // End of main function
 	
 // Write discount function here
-
+void discount() {
+   cout << "You are pre-registered and qualify for a 5% discount." << endl;
+   return;
+}
 
 // Write noDiscount function here
+void noDiscount() {
+   cout << "Sorry, you did not pre-register and do not qualify for a 5% discount." << endl;
+   return;
+}
