@@ -27,12 +27,12 @@ int main()
 	
 // Write discount function here
 void discount() {
-   cout << "You are pre-registered and qualify for a 5% discount." << endl;
+   cout << "You are pre-registered and qualify for a 5 percent discount." << endl;
    return;
 }
 
 // Write noDiscount function here
 void noDiscount() {
-   cout << "Sorry, you did not pre-register and do not qualify for a 5% discount." << endl;
+   cout << "Sorry, you did not pre-register and do not qualify for a 5 percent discount." << endl;
    return;
 }
