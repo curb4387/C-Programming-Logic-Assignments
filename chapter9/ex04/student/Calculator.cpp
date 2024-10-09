@@ -22,7 +22,7 @@ int main()
    cin >> operation;
 		
    // Call performOperation method here		
-   result = performOperation(numberOne, operation, numberTwo);
+   result = performOperation(numberOne, numberTwo, operation);
 
    cout << numberOne;
    cout << " " << operation << " ";
@@ -36,7 +36,7 @@ int main()
 	
 	
 // Write performOperation function here
-double performOperation(double numberOne, string operation, double numberTwo) {
+double performOperation(double numberOne, double numberTwo, string operation) {
    double answer;
    if (operation == "+") {
       answer = numberOne + numberTwo;
