@@ -1,28 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-09 22:58:33.194662
+Test: The `performOperation()` method accepts two numbers and an operand as arguments and returns the result.
+Reason: None
+Timestamp: 2024-10-09 23:00:50.156683
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-09 22:58:33.194792
+Test: The `performOperation()` method accepts two numbers and an operand as arguments and returns the result.
+Reason: None
+Timestamp: 2024-10-09 23:00:50.159230
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-09 22:58:33.194879
+Test: The `performOperation()` method accepts two numbers and an operand as arguments and returns the result.
+Reason: None
+Timestamp: 2024-10-09 23:00:50.161724
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-09 22:58:33.194955
+Test: The `performOperation()` method accepts two numbers and an operand as arguments and returns the result.
+Reason: None
+Timestamp: 2024-10-09 23:00:50.164226
