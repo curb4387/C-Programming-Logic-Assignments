@@ -7,7 +7,7 @@
 using namespace std;
 
 // Write performOperation() function declaration here
-double performOperation(double, string, double);
+double performOperation(double, double, string);
 int main() 
 {
    double numberOne, numberTwo;              	
