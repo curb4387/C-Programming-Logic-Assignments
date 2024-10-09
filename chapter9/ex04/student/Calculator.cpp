@@ -46,8 +46,8 @@ double performOperation(double numberOne, string operation, double numberTwo) {
       answer = numberOne * numberTwo;
    } else if (operation == "/") {
       answer = numberOne / numberTwo;
-   } /* else if (operation == "%") {
-      answer = numberOne % numberTwo;
-   } */
+   } else {
+      cout << "Error: enter correct operator.";
+   }
    return answer;
 }
