@@ -19,9 +19,9 @@ int main()
    while(number != 0)
    {		
       // Call sums function here 
-      
+      sums(number);
       // Call products function here
-      
+      products(number);
       cout << "Enter a positive integer or 0 to quit: ";
       cin >> number; 
    }
@@ -29,6 +29,25 @@ int main()
 } // End of main function
 	
 // Write sums function here
-
+void sums(int number) {
+   int sum = 0;
+   int count = 1;
+   while (count <= number) {
+      sum += count;
+      count += 1;
+   }
+   cout << sum << endl;
+   return;
+}
 
 // Write products function here
+void products(int number) {
+   int product = 1;
+   int count = 1;
+   while (count <= number) {
+      product *= count;
+      count += 1;
+   }
+   cout << product << endl;
+   return;
+}
