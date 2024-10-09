@@ -7,6 +7,7 @@
 using namespace std;
 
 // Write performOperation() function declaration here
+double performOperation(double, string, double);
 
 int main() 
 {
@@ -22,7 +23,7 @@ int main()
    cin >> operation;
 		
    // Call performOperation method here		
-   
+   result = performOperation(numberOne, operation, numberTwo);
 
    cout << numberOne;
    cout << " " << operation << " ";
@@ -36,3 +37,18 @@ int main()
 	
 	
 // Write performOperation function here
+double performOperation(double numberOne, string operation, double numberTwo) {
+   double answer;
+   if (operation == "+") {
+      answer = numberOne + numberTwo;
+   } else if (operation == "-") {
+      answer = numberOne - numberTwo;
+   } else if (operation == "*") {
+      answer = numberOne * numberTwo;
+   } else if (operation == "/") {
+      answer = numberOne / numberTwo;
+   } /* else if (operation == "%") {
+      answer = numberOne % numberTwo;
+   } */
+   return answer;
+}
