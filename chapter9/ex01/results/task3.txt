@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Check: 1
+Test: The program displays the correct message for pre-registered users.
+Reason: Unable to find '['You are pre-registered and qualify for a 5 percent discount.']' in the program's output.
+Did you preregister? Enter Y or N: You are pre-registered and qualify for a 5% discount.
+.
+Error : AssertionError - Unable to find You are pre-registered and qualify for a 5 percent discount. in the program's output.
+Timestamp: 2024-10-09 21:45:46.003673
+
+Status: FAILED!
+Check: 2
+Test: The program displays the correct message for pre-registered users.
+Reason: Unable to find '['Sorry, you did not pre-register and do not qualify for a 5 percent discount.']' in the program's output.
+Did you preregister? Enter Y or N: Sorry, you did not pre-register and do not qualify for a 5% discount.
+.
+Error : AssertionError - Unable to find Sorry, you did not pre-register and do not qualify for a 5 percent discount. in the program's output.
+Timestamp: 2024-10-09 21:45:46.005883
