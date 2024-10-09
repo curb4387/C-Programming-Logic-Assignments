@@ -26,6 +26,7 @@ int main()
    difference(value1, value2);
    // Call calculateProduct 
    product(value1, value2);
+   
    return 0;
 } // End of main() function
 	
