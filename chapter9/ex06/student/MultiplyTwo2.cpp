@@ -19,7 +19,7 @@ int main()
    cout << "Value of product is: " << product << endl;
 
    // Call multiplyNumbers using pass by address for product   
-   multiplyNumbers(num1, num2, product&);
+   multiplyNumbers(num1, num2, &product);
 
    // Print value of calculated product
    cout << num1 << " * " << num2 << " is " << product << endl; 						
