@@ -3,19 +3,19 @@ Status: FAILED!
 Check: 1
 Test: 
 Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-12 02:22:39.656474
+Error : FileNotFoundError - [Errno 2] No such file or directory: './tests.o'
+Timestamp: 2024-10-12 03:00:24.920940
 
 Status: FAILED!
 Check: 2
 Test: 
 Reason: 
 Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-12 02:22:39.656693
+Timestamp: 2024-10-12 03:00:24.921130
 
 Status: FAILED!
 Check: 3
 Test: 
 Reason: 
 Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-12 02:22:39.656786
+Timestamp: 2024-10-12 03:00:24.921215
