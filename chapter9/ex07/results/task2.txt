@@ -1,0 +1,48 @@
+
+Status: FAILED!
+Check: 1
+Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
+Reason: tests.cpp:61: failed: result == 169.00 for: 0.0 == 169.0 with 1 message: 'computeRate(1, "A") should return '169.00'.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-10-12 03:20:29.625682
+
+Status: FAILED!
+Check: 2
+Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
+Reason: Error: please input a meal plan.tests.cpp:68: failed: result == 224.00 for: 0.0 == 224.0 with 1 message: 'computeRate(2, "B") should return '224.00'.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-10-12 03:20:29.628263
+
+Status: FAILED!
+Check: 3
+Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
+Reason: tests.cpp:75: failed: result == 507.00 for: 0.0 == 507.0 with 1 message: 'computeRate(3, "A") should return '507.00'.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-10-12 03:20:29.630867
+
+Status: FAILED!
+Check: 4
+Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
+Reason: tests.cpp:82: failed: result == 112.0 for: 0.0 == 112.0 with 1 message: 'computeRate(1, "C") should return '112.0'.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-10-12 03:20:29.633471
+
+Status: FAILED!
+Check: 5
+Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
+Reason: tests.cpp:89: failed: result == 224.0 for: 0.0 == 224.0 with 1 message: 'computeRate(2, "C") should return '224.0'.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-10-12 03:20:29.636021
+
+Status: FAILED!
+Check: 6
+Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
+Reason: tests.cpp:96: failed: result == 336.0 for: 0.0 == 336.0 with 1 message: 'computeRate(3, "C") should return '336.0'.'
+Failed 1 test case, failed 1 assertion.
+Error : str - AssertionError
+Timestamp: 2024-10-12 03:20:29.638690
