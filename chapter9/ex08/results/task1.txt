@@ -1,18 +1,78 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: The program converts input to both upper and lower case.
-Reason: None
-Timestamp: 2024-10-12 04:47:47.234952
+Reason: Unable to find '['RESILIENT', 'resilient']' in the program's output.
+Enter 9 lowercase characters: R
+E
+S
+I
+L
+I
+E
+N
+T
+Enter 9 uppercase characters: r
+e
+s
+i
+l
+i
+e
+n
+t
+.
+Error : AssertionError - Unable to find RESILIENT in the program's output.
+Timestamp: 2024-10-12 04:58:12.187416
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: The program converts input to both upper and lower case.
-Reason: None
-Timestamp: 2024-10-12 04:47:47.238830
+Reason: Unable to find '['ADVENTURE', 'adventure']' in the program's output.
+Enter 9 lowercase characters: A
+D
+V
+E
+N
+T
+U
+R
+E
+Enter 9 uppercase characters: a
+d
+v
+e
+n
+t
+u
+r
+e
+.
+Error : AssertionError - Unable to find ADVENTURE in the program's output.
+Timestamp: 2024-10-12 04:58:12.189692
 
-Status: PASSED!
+Status: FAILED!
 Check: 3
 Test: The program converts input to both upper and lower case.
-Reason: None
-Timestamp: 2024-10-12 04:47:47.242394
+Reason: Unable to find '['excellent', 'EXCELLENT']' in the program's output.
+Enter 9 lowercase characters: E
+X
+C
+E
+L
+L
+E
+N
+T
+Enter 9 uppercase characters: e
+x
+c
+e
+l
+l
+e
+n
+t
+.
+Error : AssertionError - Unable to find excellent in the program's output.
+Timestamp: 2024-10-12 04:58:12.191830
