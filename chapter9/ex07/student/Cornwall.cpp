@@ -53,8 +53,6 @@ double computeRate(int days, string mealPlan) {
    } else if (mealPlan == "C") {
       rate = 112.00;
       rate = rate * days;
-   } else {
-      cout << "Error: please input a meal plan.";
    }
    return rate;
 }
