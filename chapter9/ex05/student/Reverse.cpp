@@ -31,11 +31,11 @@ int main()
 	
 // Write reverseArray function here.
 void reverseArray(int numbers[]) {
-   int sub;
-   for(sub = 0; sub < 5; sub++) {
-      int temporary = numbers[sub];
-      numbers[sub] = numbers[5 - sub - 1];
-      numbers[5 - sub - 1] = temporary;
+   int x;
+   for(x = 0; x < 5; x++) {
+      int temporary = numbers[x];
+      numbers[x] = numbers[5 - x - 1];
+      numbers[5 - x - 1] = temporary;
    return;
    }
 }
