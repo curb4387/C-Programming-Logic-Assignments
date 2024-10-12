@@ -6,24 +6,23 @@
 #include <string>
 using namespace std;
 
-void reverseArray(int numbers[]);
+void reverseArray(int[]);
 
 int main() 
 {
    int numbers[] = {9, 8, 7, 6, 5};
    int x;
    // Print contents of array
-   x = 5;
    cout << "Original contents of array:" << endl;
-   for(int i = 0; i < x; i++) {
-      cout << numbers[i] << endl;
+   for(int x = 0; x < 5; x++) {
+      cout << numbers[x] << endl;
    }
    // Call reverseArray() function here		
    reverseArray(numbers);
    // Print contents of reversed array
    cout << "Reversed contents of array:" << endl;
-   for(int i = 0; i < x; i++) {
-      cout << numbers[i] << endl;
+   for(int x = 0; x < 5; x++) {
+      cout << numbers[x] << endl;
    }
    return 0;
 } // End of main() function
