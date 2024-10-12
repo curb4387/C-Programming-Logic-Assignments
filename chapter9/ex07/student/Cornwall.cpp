@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 double computeRate(int);
@@ -31,7 +32,7 @@ int main()
       rate = computeRate(days, mealPlan);
    }
 
-   cout << "The rate for your stay is $" << rate << endl;
+   cout << "The rate for your stay is $" << setprecision(2) << fixed << rate << endl;
 
    return 0;
 } // End of main() function
@@ -55,4 +56,5 @@ double computeRate(int days, string mealPlan) {
    } else {
       cout << "Error: please input a meal plan.";
    }
+   return rate;
 }
