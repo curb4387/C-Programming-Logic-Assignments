@@ -14,16 +14,14 @@ int main()
    int x;
    // Print contents of array
    cout << "Original contents of array:" << endl;
-   for(int x = 0; x < 5; x++) {
+   for(int x = 0; x < 5; x++)
       cout << numbers[x] << endl;
-   }
    // Call reverseArray() function here		
    reverseArray(numbers);
    // Print contents of reversed array
    cout << "Reversed contents of array:" << endl;
-   for(int x = 0; x < 5; x++) {
+   for(int x = 0; x < 5; x++)
       cout << numbers[x] << endl;
-   }
    return 0;
 } // End of main() function
 	
