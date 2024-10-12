@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-void reverseArray(int[]);
+void reverseArray(int numbers[]);
 
 int main() 
 {
