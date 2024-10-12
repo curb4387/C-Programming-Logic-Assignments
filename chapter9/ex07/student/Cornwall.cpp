@@ -23,7 +23,14 @@ int main()
   
    // Figure out which arguments to pass to the computeRate() function and
    // then call the computeRate() function							
-   
+   if (question == "N") {
+      rate = computeRate(days);
+   } else if (question == "Y") {
+      cout << "Which meal plan do you want? A for 3 meals a day or C for breakfast only." << endl;
+      cin >> mealPlan;
+      rate = computeRate(days, mealPlan);
+   }
+
    cout << "The rate for your stay is $" << rate << endl;
 
    return 0;
@@ -31,3 +38,21 @@ int main()
 	
 	
 // Write computeRate functions here.
+double computeRate(int days) {
+   double rate = 99.99;
+   rate = rate * days;
+   return rate;
+}
+
+double computeRate(int days, string mealPlan) {
+   double rate;
+   if (mealPlan == "A") {
+      rate = 169.00;
+      rate = rate * days;
+   } else if (mealPlan == "C") {
+      rate = 112.00;
+      rate = rate * days;
+   } else {
+      cout << "Error: please input a meal plan.";
+   }
+}
