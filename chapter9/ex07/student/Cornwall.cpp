@@ -53,6 +53,9 @@ double computeRate(int days, string mealPlan) {
    } else if (mealPlan == "C") {
       rate = 112.00;
       rate = rate * days;
+   } else if (mealPlan == "B") {
+      rate = 112.00;
+      rate = rate * days;
    }
    return rate;
 }
