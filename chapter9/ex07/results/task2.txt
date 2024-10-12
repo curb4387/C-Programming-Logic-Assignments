@@ -3,36 +3,36 @@ Status: PASSED!
 Check: 1
 Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
 Reason: None
-Timestamp: 2024-10-12 03:41:02.245976
+Timestamp: 2024-10-12 03:42:22.965095
 
 Status: FAILED!
 Check: 2
 Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
-Reason: Error: please input a meal plan.tests.cpp:68: failed: result == 224.00 for: 0.0 == 224.0 with 1 message: 'computeRate(2, "B") should return '224.00'.'
+Reason: tests.cpp:68: failed: result == 224.00 for: 0.0 == 224.0 with 1 message: 'computeRate(2, "B") should return '224.00'.'
 Failed 1 test case, failed 1 assertion.
 Error : str - AssertionError
-Timestamp: 2024-10-12 03:41:02.248601
+Timestamp: 2024-10-12 03:42:22.967701
 
 Status: PASSED!
 Check: 3
 Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
 Reason: None
-Timestamp: 2024-10-12 03:41:02.251122
+Timestamp: 2024-10-12 03:42:22.970190
 
 Status: PASSED!
 Check: 4
 Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
 Reason: None
-Timestamp: 2024-10-12 03:41:02.253615
+Timestamp: 2024-10-12 03:42:22.972722
 
 Status: PASSED!
 Check: 5
 Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
 Reason: None
-Timestamp: 2024-10-12 03:41:02.256297
+Timestamp: 2024-10-12 03:42:22.975158
 
 Status: PASSED!
 Check: 6
 Test: The `computeRate()` method accepts a day value and meal value and returns the day rate.
 Reason: None
-Timestamp: 2024-10-12 03:41:02.258866
+Timestamp: 2024-10-12 03:42:22.977619
