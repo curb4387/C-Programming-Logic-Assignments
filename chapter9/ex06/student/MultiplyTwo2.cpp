@@ -7,7 +7,7 @@
 using namespace std;
 
 // Write function declaration here
-
+int multiplyNumbers(int, int, int*);
 
 int main() 
 {
@@ -19,14 +19,15 @@ int main()
    cout << "Value of product is: " << product << endl;
 
    // Call multiplyNumbers using pass by address for product   
-   multiplyNumbers(num1, num2, product);
+   multiplyNumbers(num1, num2, product&);
+
    // Print value of calculated product
    cout << num1 << " * " << num2 << " is " << product << endl; 						
    return 0;
 } // End of main function
 	
 // Write multiplyNumbers function here; use pass by address for result of multiplication
-int multiplyNumbers(int num1, int num2, int product) {
-   product = num1 * num2;
-   return product;
+int multiplyNumbers(int num1, int num2, int* product) {
+   *product = num1 * num2;
+   return *product;
 }
