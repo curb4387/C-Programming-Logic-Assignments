@@ -6,7 +6,7 @@
 #include <string>
 using namespace std;
 
-void reverseArray(int [], int);
+void reverseArray(int []);
 
 int main() 
 {
@@ -19,7 +19,7 @@ int main()
       cout << numbers[i] << endl;
    }
    // Call reverseArray() function here		
-   reverseArray(numbers, x);
+   reverseArray(numbers);
    // Print contents of reversed array
    cout << "Reversed contents of the array:" << endl;
    for(int i = 0; i < x; i++) {
@@ -30,12 +30,12 @@ int main()
 } // End of main() function
 	
 // Write reverseArray function here.
-void reverseArray(int numbers[], int x) {
+void reverseArray(int numbers[]) {
    int sub;
-   for(sub = 0; sub < x; sub++) {
+   for(sub = 0; sub < 5; sub++) {
       int temporary = numbers[sub];
-      numbers[sub] = numbers[x - sub - 1];
-      numbers[x - sub - 1] = temporary;
+      numbers[sub] = numbers[5 - sub - 1];
+      numbers[5 - sub - 1] = temporary;
    return;
    }
 }
