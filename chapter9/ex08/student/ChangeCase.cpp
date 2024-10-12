@@ -21,8 +21,8 @@ int main()
 
       // Convert sample1[i] to uppercase and assign it to result1
       result1 = toupper(sample1[i]);
-      cout << result1 << endl;
    }
+   cout << result1 << endl;
    cin.ignore(256,'\n');
    cout << "Enter 9 uppercase characters: ";
    for(i = 0; i < LEN; i++)		 
@@ -31,8 +31,8 @@ int main()
 
       // Convert sample2[i] to lowercase and assign it to result2
       result2 = tolower(sample2[i]);
-      cout << result2 << endl;
    }
+   cout << result2 << endl;
    cin.ignore(256,'\n');
    return 0;
 
