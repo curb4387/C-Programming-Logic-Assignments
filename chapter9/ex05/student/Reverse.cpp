@@ -32,7 +32,7 @@ int main()
 // Write reverseArray function here.
 void reverseArray(int numbers[]) {
    int x;
-   for(x = 0; x < 5; x++) {
+   for(x = 0; x < 5 / 2; x++) {
       int temporary = numbers[x];
       numbers[x] = numbers[5 - x - 1];
       numbers[5 - x - 1] = temporary;
