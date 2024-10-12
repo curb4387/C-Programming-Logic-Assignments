@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-12 03:00:25.071160
+Test: The `multiplyNumbers()` method accepts two numbers and a pass by address argument.
+Reason: None
+Timestamp: 2024-10-12 03:01:53.942557
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-12 03:00:25.071374
+Test: The `multiplyNumbers()` method accepts two numbers and a pass by address argument.
+Reason: None
+Timestamp: 2024-10-12 03:01:53.945071
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-12 03:00:25.071474
+Test: The `multiplyNumbers()` method accepts two numbers and a pass by address argument.
+Reason: None
+Timestamp: 2024-10-12 03:01:53.947542
