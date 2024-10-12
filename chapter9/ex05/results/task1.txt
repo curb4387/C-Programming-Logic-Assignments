@@ -1,42 +1,21 @@
 
 Status: FAILED!
 Check: 1
-Test: The `reverseArray()` method accepts an array as an argument and reverses the array.
-Reason: tests.cpp:46: failed: containsValue for: false with 1 message: '`reverseArray([17, 42, 8, 96, 53])` should display '53,96,8,42,17' or '
-53
-96
-8
-42
-17
-''
-Failed 1 test case, failed 1 assertion.
-Error : str - AssertionError
-Timestamp: 2024-10-12 00:36:37.562506
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-12 00:38:12.187256
 
 Status: FAILED!
 Check: 2
-Test: The `reverseArray()` method accepts an array as an argument and reverses the array.
-Reason: tests.cpp:61: failed: containsValue for: false with 1 message: '`reverseArray([1, 2, 3, 4, 5])` should display '5,4,3,2,1' or '
-5
-4
-3
-2
-1
-''
-Failed 1 test case, failed 1 assertion.
-Error : str - AssertionError
-Timestamp: 2024-10-12 00:36:37.565280
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-12 00:38:12.187449
 
 Status: FAILED!
 Check: 3
-Test: The `reverseArray()` method accepts an array as an argument and reverses the array.
-Reason: tests.cpp:76: failed: containsValue for: false with 1 message: '`reverseArray([47, 82, 23, 95, 34])` should display '34, 95, 23, 82, 47' or '
-34
-95
-23
-82
-47
-''
-Failed 1 test case, failed 1 assertion.
-Error : str - AssertionError
-Timestamp: 2024-10-12 00:36:37.567804
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-12 00:38:12.187537
