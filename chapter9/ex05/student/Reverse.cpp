@@ -29,10 +29,12 @@ int main()
 	
 // Write reverseArray function here.
 void reverseArray(int values[]) {
-   for(int x = 0; x < 5 / 2; x++) {
-      int temp = values[x];
-      values[x] = values[5 - x - 1];
-      values[5 - x - 1] = temp;
+   int temp;
+   temp = values[4];
+   values[4] = values[0];
+   values[0] = temp;
+   temp = values[3];
+   values[3] = values[1];
+   values[1] = temp;
    return;
-   }
 }
