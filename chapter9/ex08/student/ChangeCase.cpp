@@ -20,7 +20,7 @@ int main()
       cin >> sample1[i];
 
       // Convert sample1[i] to uppercase and assign it to result1
-
+      result1 = toupper(sample1[i]);
       cout << result1 << endl;
    }
    cin.ignore(256,'\n');
@@ -30,7 +30,7 @@ int main()
       cin >> sample2[i];
 
       // Convert sample2[i] to lowercase and assign it to result2
-
+      result2 = tolower(sample2[i]);
       cout << result2 << endl;
    }
    cin.ignore(256,'\n');
