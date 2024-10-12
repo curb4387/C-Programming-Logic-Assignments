@@ -15,24 +15,24 @@ int main()
    int i; 
 
    cout << "Enter 9 lowercase characters: ";
-   
    for(i = 0; i < LEN; i++)		 
    {
       cin >> sample1[i];
+
       // Convert sample1[i] to uppercase and assign it to result1
-      result1 = putchar(toupper(sample1[i]));
+
+      cout << result1 << endl;
    }
-   cout << result1 << endl;
    cin.ignore(256,'\n');
-   
    cout << "Enter 9 uppercase characters: ";
    for(i = 0; i < LEN; i++)		 
    {
       cin >> sample2[i];
+
       // Convert sample2[i] to lowercase and assign it to result2
-      result2 = putchar(tolower(sample2[i]));
+
+      cout << result2 << endl;
    }
-   cout << result2 << endl;
    cin.ignore(256,'\n');
    return 0;
 
