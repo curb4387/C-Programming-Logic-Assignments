@@ -7,6 +7,9 @@ using namespace std;
 class Motorcycle : public Vehicle {
     private:
         bool sidecar;
+        double fuelCapacity;
+        double maxSpeed;
+        double currentSpeed;
     public:
         void setSidecar(bool);
         bool getSidecar();
@@ -17,22 +20,22 @@ class Motorcycle : public Vehicle {
 void Motorcycle::setSidecar(bool side)
 {
     sidecar = side;
+}
+
+bool Motorcycle::getSidecar()
+{
     if(sidecar == true) {
         cout << "This motorcycle has a side car" << endl;
     } else {
         cout << "This motorcycle does not have a side car" << endl;
     }
-}
-
-bool Motorcycle::getSidecar()
-{
     return sidecar;
 }
 
 void Motorcycle::accelerate(double mph)
 {
-   if(currentSpeed + mph < maxSpeed)
-      currentSpeed = currentSpeed + mph;
+   if(getSpeed() + mph < getMaxSpeed())
+      currentSpeed = getSpeed() + mph;
    else
       cout << "This motorcycle cannot go that fast." << endl; 
 }
