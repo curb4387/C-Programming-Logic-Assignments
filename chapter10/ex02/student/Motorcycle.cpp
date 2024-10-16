@@ -4,7 +4,7 @@
 using namespace std; 
 
 // Write the Motorcycle class here
-class Motorcycle: public Vehicle
+class Motorcycle : public Vehicle
 {
     public:
         void setSidecar(bool);
@@ -14,25 +14,20 @@ class Motorcycle: public Vehicle
         bool sidecar;
 };
 
-void Motorcycle::setSidecar(bool side)
+void Motorcycle::setSidecar(bool status)
 {
-    sidecar = side;
+    sidecar = status;
 }
 
 bool Motorcycle::getSidecar()
 {
-    if(sidecar == true) {
-        cout << "This motorcycle has a side car" << endl;
-    } else {
-        cout << "This motorcycle does not have a side car" << endl;
-    }
     return sidecar;
 }
 
 void Motorcycle::accelerate(double mph)
 {
-   if(getSpeed() + mph < getMaxSpeed())
-      setSpeed(getSpeed() + mph);
+   if(getSpeed() + mph > getMaxSpeed())
+      cout << "This motorcycle cannot go that fast." << endl;
    else
-      cout << "This motorcycle cannot go that fast." << endl; 
+      setSpeed(getSpeed() + mph);
 }
