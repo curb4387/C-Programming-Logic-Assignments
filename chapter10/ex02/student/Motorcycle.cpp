@@ -12,9 +12,6 @@ class Motorcycle: public Vehicle
         void accelerate(double);
     private:
         bool sidecar;
-        double fuelCapacity;
-        double maxSpeed;
-        double currentSpeed;
 };
 
 void Motorcycle::setSidecar(bool side)
@@ -35,7 +32,7 @@ bool Motorcycle::getSidecar()
 void Motorcycle::accelerate(double mph)
 {
    if(getSpeed() + mph < getMaxSpeed())
-      currentSpeed = getSpeed() + mph;
+      setSpeed(getSpeed() + mph);
    else
       cout << "This motorcycle cannot go that fast." << endl; 
 }
