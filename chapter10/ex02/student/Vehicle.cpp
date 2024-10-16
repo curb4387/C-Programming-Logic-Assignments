@@ -29,8 +29,8 @@ double Vehicle::getSpeed()
 
 void Vehicle::accelerate(double mph)
 {
-   if(getSpeed() + mph < getMaxSpeed())
-      currentSpeed = getSpeed() + mph;
+   if(currentSpeed + mph < maxSpeed)
+      currentSpeed = currentSpeed + mph;
    else
       cout << "This vehicle cannot go that fast." << endl; 
 }
