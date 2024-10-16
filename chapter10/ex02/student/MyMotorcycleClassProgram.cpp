@@ -17,7 +17,7 @@ int main()
    motorcycleTwo.setMaxSpeed(85);
    // Set current speed here
    motorcycleOne.setSpeed(65);
-   motorcycleTwo.setSpeed(80);
+   motorcycleTwo.setSpeed(60);
    // Accelerate motorcyles here
    motorcycleOne.accelerate(30);
    motorcycleTwo.accelerate(20);

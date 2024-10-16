@@ -7,9 +7,6 @@ using namespace std;
 class Motorcycle : public Vehicle {
     private:
         bool sidecar;
-        double fuelCapacity;
-        double maxSpeed;
-        double currentSpeed;
     public:
         void setSidecar(bool);
         bool getSidecar();
