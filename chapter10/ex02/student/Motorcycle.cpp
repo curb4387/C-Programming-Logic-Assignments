@@ -4,17 +4,17 @@
 using namespace std; 
 
 // Write the Motorcycle class here
-class Motorcycle : public Vehicle {
+class Motorcycle: public Vehicle
+{
+    public:
+        void setSidecar(bool);
+        bool getSidecar();
+        void accelerate(double);
     private:
         bool sidecar;
         double fuelCapacity;
         double maxSpeed;
         double currentSpeed;
-    public:
-        void setSidecar(bool);
-        bool getSidecar();
-        void accelerate(double);
-
 };
 
 void Motorcycle::setSidecar(bool side)
