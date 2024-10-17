@@ -1,0 +1,12 @@
+
+Status: PASSED!
+Check: 1
+Test: Define the set and get methods for the `sidecar` member variable.
+Reason: None
+Timestamp: 2024-10-17 00:19:32.298969
+
+Status: PASSED!
+Check: 2
+Test: Define the set and get methods for the `sidecar` member variable.
+Reason: None
+Timestamp: 2024-10-17 00:19:32.301474
