@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the cpp files.
-Timestamp: 2024-10-17 00:27:30.221583
+Test: The `Motorcycle` class is derived from the `Vehicle` class.
+Reason: None
+Timestamp: 2024-10-17 00:39:33.284919
