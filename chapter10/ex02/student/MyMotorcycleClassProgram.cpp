@@ -26,15 +26,16 @@ int main()
    cout << "The current speed of motorcycleTwo is " << motorcycleTwo.getSpeed() << endl;
    // Determine side car status and display results
    sidecarStatus = motorcycleOne.getSidecar();
-   if(sidecarStatus == true) {
+   if(sidecarStatus) {
         cout << "This motorcycle has a side car" << endl;
     } else {
         cout << "This motorcycle does not have a side car" << endl;
     }
    sidecarStatus = motorcycleTwo.getSidecar();
-   if(sidecarStatus == true) {
+   if(sidecarStatus) {
         cout << "This motorcycle has a side car" << endl;
     } else {
         cout << "This motorcycle does not have a side car" << endl;
     }
+    return 0;
 }
