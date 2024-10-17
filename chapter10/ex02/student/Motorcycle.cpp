@@ -4,7 +4,7 @@
 using namespace std; 
 
 // Write the Motorcycle class here
-class Motorcycle : public Vehicle
+class Motorcycle: public Vehicle
 {
     public:
         void accelerate(double);
