@@ -1,12 +1,14 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: Define the set and get methods for the `sidecar` member variable.
-Reason: None
-Timestamp: 2024-10-17 00:19:32.298969
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-17 00:21:04.576453
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: Define the set and get methods for the `sidecar` member variable.
-Reason: None
-Timestamp: 2024-10-17 00:19:32.301474
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-17 00:21:04.576576

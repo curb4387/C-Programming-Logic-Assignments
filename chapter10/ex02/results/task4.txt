@@ -1,12 +1,14 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
-Test: The `MyMotorcycleClassProgram` displays 'This motorcycle has a side car'
-Reason: None
-Timestamp: 2024-10-17 00:19:32.308557
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-17 00:21:04.576875
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
-Test: The `MyMotorcycleClassProgram` displays 'This motorcycle does not have a side car'
-Reason: None
-Timestamp: 2024-10-17 00:19:32.310816
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the cpp files.
+Timestamp: 2024-10-17 00:21:04.576990
