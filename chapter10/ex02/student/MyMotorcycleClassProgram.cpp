@@ -4,21 +4,34 @@
 using namespace std; 
 int main()
 {
-   // Create Motorcyle objects here 
-
-   // Create a boolean variable for side car status   
+   Motorcycle motorcycleOne;
+   Motorcycle motorcycleTwo;
+   bool sidecarStatus; 
    
-   // Set side car status here
+   motorcycleOne.setSideCar(true);
+   motorcycleTwo.setSideCar(false);
 
-   // Set maximum speed here
+   motorcycleOne.setMaxSpeed(90.0);
+   motorcycleTwo.setMaxSpeed(85.0);
+   motorcycleOne.setSpeed(65.0);
+   motorcycleTwo.setSpeed(60.0);
+   motorcycleOne.accelerate(30.0);
+   motorcycleTwo.accelerate(20.0);
 
-   // Set current speed here
-
-   // Accelerate motorcyles here
-
-   // Display current speed here
+   cout << "The current speed of motorcycleOne is " << motorcycleOne.getSpeed() << endl;
+   cout << "The current speed of motorcycleTwo is " << motorcycleTwo.getSpeed() << endl;
    
-   // Determine side car status and display results
+   sidecarStatus = motorcycleOne.getSideCar(); 
+   if(sidecarStatus)
+      cout << "This motorcycle has a side car" << endl; 
+   else
+      cout << "This motorcycle does not have a side car" << endl; 
+
+   sidecarStatus = motorcycleTwo.getSideCar(); 
+   if(sidecarStatus)
+      cout << "This motorcycle has a side car" << endl; 
+   else
+      cout << "This motorcycle does not have a side car" << endl; 
    
    return 0;
 }
