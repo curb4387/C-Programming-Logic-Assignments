@@ -6,11 +6,10 @@ int main()
 {
    Motorcycle motorcycleOne;
    Motorcycle motorcycleTwo;
-
-   bool sidecarStatus;
-
-   motorcycleOne.setSidecar(true);
-   motorcycleTwo.setSidecar(false);
+   bool sidecarStatus; 
+   
+   motorcycleOne.setSideCar(true);
+   motorcycleTwo.setSideCar(false);
 
    motorcycleOne.setMaxSpeed(90.0);
    motorcycleTwo.setMaxSpeed(85.0);
@@ -21,17 +20,18 @@ int main()
 
    cout << "The current speed of motorcycleOne is " << motorcycleOne.getSpeed() << endl;
    cout << "The current speed of motorcycleTwo is " << motorcycleTwo.getSpeed() << endl;
-
-   sidecarStatus = motorcycleOne.getSidecar();
+   
+   sidecarStatus = motorcycleOne.getSideCar(); 
    if(sidecarStatus)
-        cout << "This motorcycle has a side car" << endl;
-    else
-        cout << "This motorcycle does not have a side car" << endl;
+      cout << "This motorcycle has a side car" << endl; 
+   else
+      cout << "This motorcycle does not have a side car" << endl; 
 
-   sidecarStatus = motorcycleTwo.getSidecar();
+   sidecarStatus = motorcycleTwo.getSideCar(); 
    if(sidecarStatus)
-        cout << "This motorcycle has a side car" << endl;
-    else
-        cout << "This motorcycle does not have a side car" << endl;
-    return 0;
+      cout << "This motorcycle has a side car" << endl; 
+   else
+      cout << "This motorcycle does not have a side car" << endl; 
+   
+   return 0;
 }
