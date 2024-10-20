@@ -19,3 +19,13 @@ Comments in the code tell you where to write your statements. Weekly rates can b
 <sup>_Table 8-2_</sup>
 
 ## Instructions
+
+**Task 1**: Initialize the two-dimensional array and write the C++ statements that retrieve the age of the child and the number of days the child will be at the day care center. Determine and print the weekly rate.
+
+An example of the program is shown below:
+
+```
+Enter the age of the child or 99 to quit: 2
+Enter number of days: 3
+Weekly charge is $67.0
+```
