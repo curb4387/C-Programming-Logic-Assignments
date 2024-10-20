@@ -5,3 +5,19 @@ In this lab, you use what you have learned about searching a array to find an ex
 The program provided for this lab includes the input statements and the necessary variable initializations. You need to use a loop to examine all the items in the array and test for a match. You also need to set a flag if there is a match and then test the flag variable to determine if you should print the **Not a city in Michigan** message or **City found** message. Comments in the code tell you where to write your statements. You can use the _Mail Order_ program in this chapter as a guide.
 
 ## Instructions
+
+**Task 1**: Write a loop statement that examines the names of cities stored in the array.
+
+**Task 2**: Write code that tests for a match, when appropriate, prints the message **Not a city in Michigan** or **City found**.
+
+Examples of the program are shown below:
+
+```
+Enter name of city: Coloma
+City found.
+```
+
+```
+Enter name of city: Asheville
+Not a city in Michigan.
+```
