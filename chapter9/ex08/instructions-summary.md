@@ -11,3 +11,14 @@ result = sample.upper()
 The source code file provided for this lab includes the necessary variable initializations and the necessary input and output statements. Comments are included in the file to help you write the remainder of the program.
 
 ## Instructions
+
+**Task 1**: Implement the built-in C++ functions to convert an input string to both lower case and upper case.
+
+An example of the program is shown below:
+
+```
+Enter 9 lowercase characters: adventure
+ADVENTURE
+Enter 9 uppercase characters: ADVENTURE
+adventure
+```
