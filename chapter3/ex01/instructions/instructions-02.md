@@ -1,1 +1,0 @@
-**Task 2:** Write the interactive input statements to retrieve a student’s test score (`testScore`) and class rank (`classRank`) from the user of the program. Do not forget to prompt the user for the test score and class rank.
